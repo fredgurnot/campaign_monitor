@@ -5,16 +5,15 @@ import './App.css';
 const App = () => {
 
     const [campaignsList, setCampaignsList] = useState([]);
-    const [filter, setFilter] = useState('');
+    const [filterName, setFilterName] = useState('');
 
     useEffect(() => {
-        console.log(filter);
             fetch('./api.json')
                 .then(response => response.json())
                 .then(data => setCampaignsList(data.messagingUnits))
                 .catch(error => ({error}));
 
-        }, [filter]
+        }, [filterName]
     );
 
     return (
@@ -24,7 +23,7 @@ const App = () => {
                 <thead>
                 <tr>
                     <th>Priority</th>
-                    <th>Campaign Name<br/>Filter <input value={filter} onChange={(e) => setFilter(e.target.value)}/></th>
+                    <th>Campaign Name<br/>Filter <input value={filterName} onChange={(e) => setFilterName(e.target.value)}/></th>
                     <th>Variant</th>
                     <th>Audiences</th>
                 </tr>
@@ -32,7 +31,7 @@ const App = () => {
                 <tbody>
                 {
                     campaignsList.map((campaign, i) => {
-                        if (campaign.properties.campaignName.includes(filter)) {
+                        if (campaign.properties.campaignName.includes(filterName)) {
                             return (
                                 <Campaign
                                     key={i}
