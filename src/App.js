@@ -8,6 +8,7 @@ const App = () => {
     const [campaignsList, setCampaignsList] = useState([]);
     const [filterName, setFilterName] = useState('');
     const [filterVariant, setFilterVariant] = useState('');
+    const [filterAudience, setFilterAudience] = useState('');
     const [filterArea, setFilterArea] = useState(['barOne', 'inlineUnit', 'welcomeAd', 'dock', 'gateway', 'truncator', 'mobileTruncator']);
 
     const areas = ['barOne', 'inlineUnit', 'welcomeAd', 'dock', 'gateway', 'truncator', 'mobileTruncator'];
@@ -80,8 +81,13 @@ const App = () => {
                             Filter
                             <input value={filterVariant} onChange={(e) => setFilterVariant(e.target.value)}/>
                         </th>
-                        <th>Audiences</th>
-                        <th>Areas</th>
+                        <th>Audiences<br/>
+                            Filter
+                            <input value={filterAudience} onChange={(e) => setFilterAudience(e.target.value)}/>
+                        </th>
+                        <th>Areas<br/>
+                        | <span className="green">active</span>  | <span className="red">killset</span> | <span className="grey">(fallthrough hidden)</span>
+                        </th>
                     </tr>
                     </thead>
                     <tbody>

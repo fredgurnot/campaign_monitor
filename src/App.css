@@ -30,3 +30,15 @@ th {
 .filter-areas {
     padding-left: 20px;
 }
+
+.red {
+    color: crimson;
+}
+
+.green {
+    color: green;
+}
+
+.grey {
+    color: darkgray;
+}
