@@ -1,7 +1,14 @@
+
+.app-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 /*table*/
 
 table {
-    margin: 0 auto;
+
 }
 
 table, th, td {
@@ -10,6 +17,7 @@ table, th, td {
 
 th, td {
     padding: 0 10px;
+    font-size: 12px;
 }
 th {
     line-height: 30px;
@@ -17,4 +25,8 @@ th {
 
 .center {
     text-align: center;
+}
+
+.filter-areas {
+    padding-left: 20px;
 }

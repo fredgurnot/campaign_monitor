@@ -1,2 +1,12 @@
+.listbox {
+    maxHeight: 120px;
+    minWidth: 200px;
+}
 
+.red {
+    color: crimson;
+}
 
+.green {
+    color: green;
+}
