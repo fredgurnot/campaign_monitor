@@ -20,7 +20,7 @@ const App = () => {
                 .then(data => setCampaignsList(data.messagingUnits))
                 .catch(error => ({error}));
 
-        }, [filterName, filterArea]
+        }, [filterName, filterArea, filterAudience]
     );
 
 
@@ -46,6 +46,13 @@ const App = () => {
             }
         }
         return true;
+    };
+
+    const searchSegment = (str, strArray) => {
+        for (var j=0; j<strArray.length; j++) {
+            if (strArray[j].match(str)) return true;
+        }
+        return false
     };
 
 
@@ -97,6 +104,8 @@ const App = () => {
                                 campaign.properties.campaignName.includes(filterName)
                                 &&
                                 campaign.name.includes(filterVariant)
+                                &&
+                                searchSegment(filterAudience, campaign.segments)
                                 &&
                                 validateArea(campaign.areas)
                             ) {

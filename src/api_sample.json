@@ -1,1 +1,914 @@
-{"messagingUnits":[{"uuid":"0d807f99-bba6-4acd-be9d-92128054ce07","name":"variant-44","url":"https://www.nytimes.com/marketing/mpc/muassets/variants/variant-44","lastModified":"2020-01-07T15:28:49.78-05:00","lastModifiedBy":"anonymous","templateId":"mkt-wcm:pages/metered_assets/page/template/main","audienceName":"MAG_web_US_regi-anon_Verizon-Edu-Socrates","segmentOperator":"AND","segments":["/Platforms/web","/Geo/Countries/USA","/User-Status/Regi-or-Anonymous","/NYT-PURR/ad-configuration/adluce-socrates"],"properties":{"campaignName":"MAG_web_non-sub_US_Verizon-Edu-Socrates","marketingCampaigns.path":"/core","marketingCampaign":"14a7e1fc-5c6d-4102-853a-d63cfc97701a"},"areas":[{"areaName":"barOne","status":"active","properties":{"frequencyCapEnabled":false,"status":"active"},"components":[{"componentName":"barOne","componentPath":"/marketing/mpc/muassets/variants/variant-44/barOne/0","properties":{"product":"none"},"content":[{"componentName":"barOneLayout","componentPath":"/marketing/mpc/muassets/variants/variant-44/barOne/0/content/0","properties":{"campaignIdType":"none","linkLabel":"Teaching Tools","locationLink":"9fdfa69d-e527-4e62-b6a6-00afcc835baa","locationLink.path":"/MC/The-Learning-Network"},"content":[],"variants":[],"segments":[],"segmentOperator":null}],"variants":[],"segments":[],"segmentOperator":null}]},{"areaName":"inlineUnit","status":"killset","properties":{"status":"inactive"},"components":[]},{"areaName":"welcomeAd","status":"active","properties":{"sessionCapImpressions":1,"frequencyCapEnabled":true,"sessionCapTime":24,"status":"active"},"components":[{"componentName":"welcomeAd","componentPath":"/marketing/mpc/muassets/variants/variant-44/welcomeAd/0","properties":{"product":"none"},"content":[{"componentName":"welcomeAdLayout","componentPath":"/marketing/mpc/muassets/variants/variant-44/welcomeAd/0/content/0","properties":{"text":"<p class=\"welcomead-logo\"><img class=\"welcomead-nytlogo\" src=\"https://mwcm.nyt.com/dam/mkt_assets/exo/img/nyt-logo-379x64.svg\"></p> \n<p class=\"welcomead-headline\" style=\"text-align: center;\"><span style=\"font-size:36px;\"><span class=\"richText__weight--medium\"><span style=\"font-family:nyt-cheltenham;\"><span class=\"welcomead-headline-top\">Welcome to<br> The New York Times.</span></span></span></span></p> \n<div class=\"welcomead-sub\" style=\"line-height:1;text-align:center;\"> \n <span class=\"richText__weight--medium\"><span style=\"font-family:nyt-franklin;\">Enjoy unlimited free articles, videos and more.</span></span> \n</div> \n<div class=\"welcome-ad-partnership\">\n  In partnership with \n</div> \n<div class=\"welcomead-verizon-logo\"> \n <img src=\"https://mwcm.nyt.com/dam/Verizon_Edu/verizon-logo.svg\"> \n</div>","backgroundColor":"#FBD88B","campaignIdType":"none","mobileText":"<div class=\"welcomead-content\"> \n <p class=\"welcomead-logo\"><img class=\"welcomead-nytlogo\" src=\"https://mwcm.nyt.com/dam/mkt_assets/exo/img/nyt-logo-379x64.svg\"></p> \n <p class=\"welcomead-headline\" style=\"text-align: center;\"><span style=\"font-size:29px;\"><span class=\"richText__weight--medium\"><span style=\"font-family:nyt-cheltenham;\"><span class=\"welcomead-headline-top\">Welcome to<br> The New York Times.</span></span></span></span></p> \n <div class=\"welcomead-sub\" style=\"line-height:1;text-align:center;\"> \n  <span style=\"font-size:16px;\"><span class=\"richText__weight--medium\"><span style=\"font-family:nyt-franklin;\">Enjoy unlimited free articles,<br> videos and more.</span></span></span> \n </div> \n <div class=\"welcome-ad-partnership\">\n   In partnership with \n </div> \n <div class=\"welcomead-verizon-logo\"> \n  <img src=\"https://mwcm.nyt.com/dam/Verizon_Edu/verizon-logo.svg\"> \n </div> \n</div>","width":100,"locationLink":"1c6a5ea7-e3a7-49f5-8976-795acf79b6e3","locationLink.path":"/MC/Subscription","buttonBackgroundColor":"#f3fe86"},"content":[],"variants":[],"segments":[],"segmentOperator":null}],"variants":[],"segments":[],"segmentOperator":null},{"componentName":"creativeOverride","componentPath":"/marketing/mpc/muassets/variants/variant-44/welcomeAd/00","properties":{"scss":".welcomead-logo {\n    display: flex;\n    align-items: center;\n    flex-direction: column;\n    \n    @media screen and (min-width: 768px) { \n        width: 100%;\n        display: flex;\n        justify-content: center;\n        font-size: 24px;\n        margin-top: 6px;\n    }\n}\n\n.welcomead-nytlogo {\n    width: 166px;\n    @media screen and (max-width: 599px){\n        margin-top: -20px;\n        margin-bottom: 20px;\n    }\n}\n\n.welcomead-verizon-logo{\n    width: 100%;\n    display: flex;\n    justify-content: center;\n    img {\n        width: 108px;\n        @media screen and (max-width: 599px){\n            width: 100px;\n        }\n    }\n}\n.welcomead-headline-top{\n    font-weight: 300;\n}\n.welcome-ad-partnership{\n    display: flex;\n    justify-content: center;\n    font-size: 8px;\n    font-weight: 400;\n    margin-top: -10px;\n    margin-bottom: 12px;\n    @media screen and (max-width: 599px){\n        margin-top: -50px;\n    }\n}\n.welcomeAdLayout__button__wrap {\n    display: none;\n}\n\n.welcomeAdLayout {\n   background-image: url(\"https://mwcm.nyt.com/dam/Verizon_Edu/Verizon-Edu-Bg.png\");\n   background-repeat: no-repeat;\n   padding: 30px;\n   \n   @media screen and (max-width: 599px) {\n       padding: 25px;\n       padding-left: 20px;\n       padding-right: 20px;\n       width: 300px;\n       background-image: url(\"https://mwcm.nyt.com/dam/Verizon_Edu/Verizon-edu-bg-mobile.png\");\n   }\n   \n    @media screen and (min-width: 600px) {\n        height: 320px;\n        padding-top: 0px;\n   }\n   @media screen and (min-width: 768px){\n       padding-top: 20px;\n   }\n}\n\n.welcomead-headline {\n    margin: 40px auto 10px;\n    font-weight: 400;\n    letter-spacing: -.5px;\n}\n\n.welcomead-sub {\n    margin: 0 0 50px;\n    font-size: 17px;\n    @media screen and (max-width: 599px) {\n        margin: 0 0 160px;\n        font-size: 16px;\n    }\n}\n\n.nowrap {\n    white-space: nowrap;\n}","js":"function (assets) {\r\n    // Add your custom code here.\r\n}"},"content":[],"variants":[],"segments":[],"segmentOperator":null}]},{"areaName":"dock","status":"killset","properties":{"frequencyCapEnabled":false,"status":"inactive"},"components":[]},{"areaName":"gateway","status":"killset","properties":{"status":"inactive"},"components":[]},{"areaName":"truncator","status":"killset","properties":{"status":"inactive"},"components":[]},{"areaName":"mobileTruncator","status":"killset","properties":{"status":"inactive"},"components":[]}],"variant":true},{"uuid":"804fc667-ecab-4bad-b9bc-8f47520fa9d5","name":"variant-50","url":"https://www.nytimes.com/marketing/mpc/muassets/variants/variant-50","lastModified":"2020-01-07T15:14:31.791-05:00","lastModifiedBy":"anonymous","templateId":"mkt-wcm:pages/metered_assets/page/template/main","audienceName":"MAG_web_anon","segmentOperator":"AND","segments":["/Platforms/web","/User-Status/Anonymous"],"properties":{"campaignName":"MAG_web_anon_new-journey-rollout","promoDescription":"New Journey Rollout"},"areas":[{"areaName":"barOne","status":"active","properties":{"status":"active"},"components":[{"componentName":"barOne","componentPath":"/marketing/mpc/muassets/variants/variant-50/barOne/0","properties":{"product":"none"},"content":[{"componentName":"barOneLayout","componentPath":"/marketing/mpc/muassets/variants/variant-50/barOne/0/content/0","properties":{"manualCampaignId":"797YR","campaignIdType":"manualCampaignId","link":"locationLink","linkLabel":"Subscribe Now","locationLink":"1c6a5ea7-e3a7-49f5-8976-795acf79b6e3","locationLink.path":"/MC/Subscription"},"content":[],"variants":[],"segments":[],"segmentOperator":null}],"variants":[],"segments":[],"segmentOperator":null}]},{"areaName":"inlineUnit","status":"active","properties":{"status":"active"},"components":[{"componentName":"inlineUnit","componentPath":"/marketing/mpc/muassets/variants/variant-50/inlineUnit/0","properties":{"product":"none"},"content":[{"componentName":"inlineUnitLayout","componentPath":"/marketing/mpc/muassets/variants/variant-50/inlineUnit/0/content/0","properties":{"manual":"https://myaccount.nytimes.com/auth/register","campaignIdType":"manualCampaignId","manualCampaignId":"7QF7X","link":"locationLink","linkLabel":"Create an account or log in","message":"Unlock more free articles.","locationLink":"21bc66e8-3bc0-448e-bf80-80671c9d62e2","locationLink.path":"/MC/Create-account-link","queryParameters":"response_type=cookie&client_id=freex&asset=InlineMessage&application=Free_Experience&redirect_uri=https%3A%2F%2Fwww.nytimes.com%2Fsubscription%2Fmultiproduct%2Flp8KQUS.html%3FcampaignID%3D7QF7X"},"content":[],"variants":[],"segments":[],"segmentOperator":null}],"variants":[],"segments":[],"segmentOperator":null}]},{"areaName":"welcomeAd","status":"active","properties":{"frequencyCapImpressions":3,"frequencyCapTime":365,"sessionCapImpressions":1,"frequencyCapEnabled":true,"sessionCapTime":24,"status":"active"},"components":[{"componentName":"welcomeAd","componentPath":"/marketing/mpc/muassets/variants/variant-50/welcomeAd/0","properties":{"product":"none"},"content":[{"componentName":"welcomeAdLayout","componentPath":"/marketing/mpc/muassets/variants/variant-50/welcomeAd/0/content/0","properties":{"textColor":"#000000","backgroundColor":"#000000","campaignIdType":"none","altText":"The New York Times","mobileText":"<div class=\"welcomeAdLayout__Container\"> \n <div class=\"welcomeAdLayout__Login\"> \n  <a href=\"https://myaccount.nytimes.com/auth/login\" target=\"_blank\">Already a Subscriber? Log in</a> \n </div> \n <div class=\"welcomeAdLayout__Hero\"> \n  <span class=\"richText__weight--light\"><span style=\"font-family:nyt-cheltenham;\">Create a free account or log in to access more of <span class=\"nowrap\">The Times.</span></span></span> \n </div> \n</div>","link":"manual","width":100,"linkLabel":"CONTINUE","buttonBackgroundColor":"#ffffff","text":"<div class=\"welcomeAdLayout__Container\"> \n <div class=\"welcomeAdLayout__Login\"> \n  <a href=\"https://myaccount.nytimes.com/auth/login\" target=\"_blank\">Already a Subscriber? Log in</a> \n </div> \n <div class=\"welcomeAdLayout__Hero\"> \n </div> \n <div class=\"welcomeAdLayout__Hero\"> \n  <span style=\"font-family:nyt-cheltenham;\">Create a free account or log in to access more of <span class=\"nowrap\">The Times.</span></span> \n </div> \n</div>","manual":"https://myaccount.nytimes.com/auth/register?response_type=cookie&client_id=freex&asset=WelcomeAd&application=Free_Experience&redirect_uri=https%3A%2F%2Fwww.nytimes.com%2Fsubscription%2Fmultiproduct%2Flp8KQUS.html%3FcampaignID%3D7UJQQ%26EXIT_URI%3Dhttps%3A%2F%2Fwww.nytimes.com%2F","locationLink":"1c6a5ea7-e3a7-49f5-8976-795acf79b6e3","locationLink.path":"/MC/Subscription","image":"jcr:ae74ea82-4666-4f50-96b0-38ca50f32102"},"content":[],"variants":[],"segments":[],"segmentOperator":null}],"variants":[],"segments":[],"segmentOperator":null},{"componentName":"creativeOverride","componentPath":"/marketing/mpc/muassets/variants/variant-50/welcomeAd/00","properties":{"scss":".welcomeAdLayout{\n    padding: 50px 0;\n    \n    @media screen and (min-width: 700px){\n        padding: 30px 50px;\n        height: 320px;\n    }\n}\n\n.welcomeAdLayout__Container{\n    margin-top: 15px;\n}\n\n.welcomeAdLayout__content__inner {\n    padding-top: 50px;\n}\n\n.welcomeAdLayout__image__wrap {\n    text-align: center;\n}\n\n.welcomeAdLayout__image {\n    width: 173px;\n    padding: 0px;\n    \n    @media screen and (min-width: 700px){\n        text-align: left;\n        width: 191px;\n    }\n}\n.welcomeAdLayout__text{\n    margin-bottom: 0px;\n}\n\n.welcomeAdLayout__button__wrap {\n    text-align: center;\n}\n\n.welcomeAdLayout__button{\n    font-weight: 800;\n    width: 96px;\n    height: 32px;\n    line-height: 32px;\n    padding: 0;\n    font-size: 12px;\n    \n    @media screen and (min-width: 465px){\n        font-size: 12px;\n        width: 116px;\n    }\n    \n    @media screen and (min-width: 700px){\n        font-size: 11px;\n        width: 108px;\n    }\n}\n\n.welcomeAdLayout__Hero{\n    text-align: center;\n    color: #FFF;\n    font-size: 22px;\n    line-height: 28px;\n    font-family: nyt-franklin;\n    padding: 0 20px;\n    \n    \n    @media screen and (min-width: 700px){\n        text-align: left;\n        font-size: 26px;\n        padding: 0;\n        width: 70%;\n        text-align: center;\n        margin: auto;\n    }\n}\n\n\n.welcomeAdLayout__Copy{\n    font-size: 15px;\n    margin-top: 100px;\n    margin-bottom: 14px;\n    color: #FFF;\n    font-weight: 800;\n    @media screen and (min-width: 465px){\n        font-size: 18px;\n    }\n    @media screen and (min-width: 700px){\n        margin-top: 30px;\n    }\n}\n.welcomeAdLayout__Copy__Headline{\n    font-size: 11px;\n    color: #FFF;\n    font-weight: 800;\n    margin-bottom: 5px;\n    @media screen and (min-width: 465px){\n        font-size: 13px;\n    }\n    @media screen and (min-width: 700px){\n        font-size: 14px;\n    }\n}\n\n@media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {  \n   /* IE10+ specific styles go here */ \n   \n   .welcomeAdLayout__image__wrap{\n       min-height: 1px;\n   }\n   .welcomeAdLayout__content__inner{\n       min-height: 1px;\n   }\n\n}\n.welcomeAdLayout__content {\n    height: 100%;\n    justify-content: space-around;\n}\n.welcomeAdLayout__Login{\n    font-size: 12px;\n    color: #FFF;\n    position: absolute;\n    left: 20px;\n    top: 20px;\n    a {\n        color: #FFF;\n    }\n    @media screen and (min-width: 465px){\n        font-size: 11px;\n        right: 31px;\n        top: 31px;\n    }\n}\n.nowrap{\n    white-space: nowrap;\n}\n.welcomeAdLayout__Top__Text{\n        line-height: 22px;\n        @media only screen and (max-width: 500px){\n            line-height: 18px;\n        }\n}\n\n#vi_welcome_close {\n  position: absolute;\n  background-clip: padding-box;\n  margin: 0;\n  padding: 0;\n  box-shadow: 0 0 0 1px #000, 0 0 0 2px #000, -1px 1px 2px 3px rgba(0, 0, 0, 0);\n  border: none;\n  background-color: #000;\n  width: 22px;\n  height: 22px;\n  right: 18px;\n  top: 14px;\n  cursor: pointer;\n  line-height: normal;\n  vertical-align: middle;\n  z-index: 10;\n}\n\n#vi_welcome_close:hover {\n  background-color: #000;\n}\n\n#vi_welcome_close:before {\n  -webkit-transform: rotate(45deg);\n  -ms-transform: rotate(45deg);\n  transform: rotate(45deg);\n}\n\n#vi_welcome_close:after {\n  -webkit-transform: rotate(135deg);\n  -ms-transform: rotate(135deg);\n  transform: rotate(135deg);\n}\n\n#vi_welcome_close:before,\n#vi_welcome_close:after {\n  content: \"\";\n  position: absolute;\n  display: block;\n  background-color: #fff;\n  top: 10px;\n  left: 3px;\n  width: 16px;\n  height: 1px;\n}","js":"function (assets) {\r\n    \r\n}"},"content":[],"variants":[],"segments":[],"segmentOperator":null}]},{"areaName":"dock","status":"active","properties":{"status":"active"},"components":[{"componentName":"dock","componentPath":"/marketing/mpc/muassets/variants/variant-50/dock/0","properties":{"product":"none"},"content":[{"componentName":"expandableDockLayout","componentPath":"/marketing/mpc/muassets/variants/variant-50/dock/0/content/0","properties":{"collapsedHeader":"<div class=\"dock_collapsed_header\">Access more of The Times by creating a free account or logging in.</div>","manualCampaignId":"3D7FHH","campaignIdType":"manualCampaignId","initialSize":"maximized","linkLabel":"Standard dock","expandedHeader":"Access more for free.","expandedCta":"COLLAPSE","locationLink":"1c6a5ea7-e3a7-49f5-8976-795acf79b6e3","locationLink.path":"/MC/Subscription","collapsedCta":"EXPAND","size":"expandable"},"content":[{"componentName":"dockCard","componentPath":"/marketing/mpc/muassets/variants/variant-50/dock/0/content/0/content/0","properties":{"textColor":"#000000","backgroundColor":"#000000","campaignIdType":"manualCampaignId","mobileText":"<p><span style=\"font-family:nyt-cheltenham;\"><span style=\"font-size:18px;\"><span class=\"richText__weight--medium\"><span style=\"color:#ffffff;text-decoration:inherit;\">Create a free account or log in to access <span class=\"nowrap\">more of The Times.</span></span></span></span></span></p>","link":"manual","linkLabel":"CONTINUE","referReplacementEnabled":true,"logoImage":"whiteLogo","buttonBackgroundColor":"#FFFFFF","text":"<p><span style=\"font-family:nyt-cheltenham;\"><span style=\"font-size:24px;\"><span class=\"richText__weight--medium\"><span style=\"color:#ffffff;text-decoration:inherit;\">Create a free account or log in to access <span class=\"nowrap\">more of The Times.</span></span></span></span></span></p>","alternateText":"<p><span style=\"font-family:nyt-cheltenham;\"><span class=\"richText__weight--medium\"><span style=\"color:#ffffff;text-decoration:inherit;\">Create a free account or log in to access <span class=\"nowrap\">more of The Times.</span></span></span></span></p>","manual":"https://myaccount.nytimes.com/auth/register","manualCampaignId":"7FHH8","locationLink":"1c6a5ea7-e3a7-49f5-8976-795acf79b6e3","locationLink.path":"/MC/Subscription","queryParameters":"response_type=cookie&client_id=freex&asset=Dock&application=Free_Experience&redirect_uri=https%3A%2F%2Fwww.nytimes.com%2Fsubscription%2Fmultiproduct%2Flp8KQUS.html%3FcampaignID%3D7FHH8"},"content":[],"variants":[],"segments":[],"segmentOperator":null}],"variants":[],"segments":[],"segmentOperator":null},{"componentName":"creativeOverride","componentPath":"/marketing/mpc/muassets/variants/variant-50/dock/0/content/00","properties":{"scss":"\n.nowrap {\n  white-space: nowrap;\n}\n.dockCard {\n  height: 140px;\n}\n\n.dockCard__content {\n  height: 80px;\n  flex-direction: column !important;\n  padding: 20px !important;\n}\n\n@media only screen and (min-width: 500px) {\n  .dockCard__content {\n    height: 100px;\n    padding: 20px !important;\n    flex-direction: row !important;\n    justify-content: space-between;\n  }\n}\n\n.dockCard__content__inner {\n  display: flex !important;\n  flex-direction: row !important;\n  margin: auto;\n}\n\n.dockCard__button {\n  font-weight: 600;\n}\n\n.dockCard__text {\n  text-align: center;\n  width: 100%;\n}\n\n@media screen and (max-width: 650px) {\n  .dock_collapsed_header {\n    font-size: 14px;\n  }\n}\n\n.dockCard__button {\n  width: 100px;\n}\n\n@media only screen and (min-width: 768px) {\n  .dockCard__button {\n    width: 100px;\n  }\n}\n\n@media only screen and (max-width: 767px) {\n  .dockCard__button__wrap {\n    align-self: flex-start !important;\n    padding-top: 30px;\n  }\n\n  .dockCard__text.dockCard__text--mobile {\n    text-align: left;\n  }\n}\n\n.dockCard__text--mobile+.dockCard__text {\n  line-height: 22px;\n}\n\n@media only screen and (min-width: 768px) {\n  .dockCard__text--mobile+.dockCard__text {\n    width: 45%;\n    margin: auto;\n    line-height: 26px;\n  }\n}\n\n@media only screen and (min-width: 906px) {\n  .dockCard__text--mobile+.dockCard__text {\n    line-height: 32px;\n  }\n}\n\n@media only screen and (max-width: 767px) {\n  .dockCard__image__wrap {\n    display: none !important;\n  }\n}\n\n","js":"function (assets) {\r\n    // Add your custom code here.\r\n}"},"content":[],"variants":[],"segments":[],"segmentOperator":null}],"variants":[],"segments":[],"segmentOperator":null}]},{"areaName":"gateway","status":"active","properties":{"status":"active"},"components":[{"componentName":"gatewayLink","componentPath":"/marketing/mpc/muassets/variants/variant-50/gateway/0","properties":{"campaignIdType":"none","gatewayLink":"099d631c-0b00-4f50-84c2-9d0a2c4a3183","gatewayLink.path":"/subscription/gateway/anonymous-newJourney"},"content":[],"variants":[],"segments":[],"segmentOperator":null}]},{"areaName":"truncator","status":"killset","properties":{"status":"inactive"},"components":[]},{"areaName":"mobileTruncator","status":"killset","properties":{"status":"inactive"},"components":[]}],"variant":true},{"uuid":"81de68d3-ebec-48db-9f23-2cef9ab9df1b","name":"variant-12","url":"https://www.nytimes.com/marketing/mpc/muassets/variants/variant-12","lastModified":"2020-01-14T17:46:18.782-05:00","lastModifiedBy":"anonymous","templateId":"mkt-wcm:pages/metered_assets/page/template/main","audienceName":"MAG_web_regi_RTS","segmentOperator":"AND","segments":["/User-Status/Regi","/Platforms/web","/DateAndTime/RTS"],"properties":{"campaignName":"MAG_web_regi_rts","promoDescription":" RTS "},"areas":[{"areaName":"barOne","status":"active","properties":{"status":"active"},"components":[{"componentName":"barOne","componentPath":"/marketing/mpc/muassets/variants/variant-12/barOne/0","properties":{"product":"none"},"content":[{"componentName":"barOneLayout","componentPath":"/marketing/mpc/muassets/variants/variant-12/barOne/0/content/0","properties":{"manualCampaignId":"7WWFH","campaignIdType":"manualCampaignId","linkLabel":"SUBSCRIBE NOW","locationLink":"1c6a5ea7-e3a7-49f5-8976-795acf79b6e3","locationLink.path":"/MC/Subscription"},"content":[],"variants":[],"segments":[],"segmentOperator":null}],"variants":[{"componentName":"barOne","componentPath":"/marketing/mpc/muassets/variants/variant-12/barOne/0/variants/variant-0","properties":{"product":"none"},"content":[{"componentName":"barOneLayout","componentPath":"/marketing/mpc/muassets/variants/variant-12/barOne/0/variants/variant-0/content/0","properties":{"manualCampaignId":"67LXL","campaignIdType":"manualCampaignId","linkLabel":"SUBSCRIBE NOW","locationLink":"1c6a5ea7-e3a7-49f5-8976-795acf79b6e3","locationLink.path":"/MC/Subscription"},"content":[],"variants":[],"segments":[],"segmentOperator":null}],"variants":[],"segments":["/Geo/Countries/USA"],"segmentOperator":"OR"}],"segments":[],"segmentOperator":null}]},{"areaName":"inlineUnit","status":"active","properties":{"status":"active"},"components":[{"componentName":"inlineUnit","componentPath":"/marketing/mpc/muassets/variants/variant-12/inlineUnit/0","properties":{"product":"none"},"content":[{"componentName":"inlineUnitLayout","componentPath":"/marketing/mpc/muassets/variants/variant-12/inlineUnit/0/content/0","properties":{"campaignIdType":"manualCampaignId","manualCampaignId":"7UU8U","linkLabel":"Subscribe to The Times","message":"@{#noHTML}@{#dynamicText}/genericMeterCopy@{/dynamicText}@{/noHTML}","locationLink":"1c6a5ea7-e3a7-49f5-8976-795acf79b6e3","locationLink.path":"/MC/Subscription"},"content":[],"variants":[],"segments":[],"segmentOperator":null}],"variants":[{"componentName":"inlineUnit","componentPath":"/marketing/mpc/muassets/variants/variant-12/inlineUnit/0/variants/variant-0","properties":{"product":"none"},"content":[{"componentName":"inlineUnitLayout","componentPath":"/marketing/mpc/muassets/variants/variant-12/inlineUnit/0/variants/variant-0/content/0","properties":{"manualCampaignId":"6YHJF","campaignIdType":"manualCampaignId","linkLabel":"Subscribe to The Times","message":"@{#noHTML}@{#dynamicText}/genericMeterCopy@{/dynamicText}@{/noHTML}","locationLink":"1c6a5ea7-e3a7-49f5-8976-795acf79b6e3","locationLink.path":"/MC/Subscription"},"content":[],"variants":[],"segments":[],"segmentOperator":null}],"variants":[],"segments":["/Geo/Countries/USA"],"segmentOperator":"OR"}],"segments":[],"segmentOperator":null}]},{"areaName":"welcomeAd","status":"active","properties":{"frequencyCapImpressions":3,"frequencyCapTime":7,"sessionCapImpressions":1,"frequencyCapEnabled":true,"sessionCapTime":1,"status":"active"},"components":[{"componentName":"welcomeAd","componentPath":"/marketing/mpc/muassets/variants/variant-12/welcomeAd/0","properties":{"product":"none"},"content":[{"componentName":"welcomeAdLayout","componentPath":"/marketing/mpc/muassets/variants/variant-12/welcomeAd/0/content/0","properties":{"text":"<div class=\"welcomeAdLayout__Container\"> \n <div class=\"welcomeAdLayout__Logo__Wrap\"> \n  <img class=\"welcomeAdLayout__Logo\" src=\"https://static01.nyt.com/marketing/assets/2017/nyt-logo-379x64.svg\"> \n </div> @{#dynamicText}/meteredAssets/One_Day_Sale/OCT_19_IMG/Welcome@{/dynamicText} \n <a class=\"welcomeAdLayout__Button__Link\" href=\"${link:{uuid:{4bb210ef-c874-454d-a237-2b6d8d735174},repository:{website},path:{/subscription},nodeData:{},extension:{}}}?campaignId=7WRJW\"><span class=\"welcomeAdLayout__Custom__Button\">VIEW OFFER</span></a> \n</div>","backgroundColor":"#FAEF9F","altText":"The New York Times","mobileText":"<div class=\"welcomeAdLayout__Container\"> \n <div class=\"welcomeAdLayout__Logo__Wrap\"> \n  <img class=\"welcomeAdLayout__Logo\" src=\"https://static01.nyt.com/marketing/assets/2017/nyt-logo-379x64.svg\"> \n </div> @{#dynamicText}/meteredAssets/One_Day_Sale/OCT_19_IMG/Welcome@{/dynamicText} \n <a class=\"welcomeAdLayout__Button__Link\" href=\"${link:{uuid:{4bb210ef-c874-454d-a237-2b6d8d735174},repository:{website},path:{/subscription},nodeData:{},extension:{}}}?campaignId=7WRJW\"><span class=\"welcomeAdLayout__Custom__Button\">VIEW OFFER</span></a> \n</div>","manualCampaignId":"7WRJW","campaignIdType":"manualCampaignId","width":93,"linkLabel":"SEE MY OPTIONS","locationLink":"1c6a5ea7-e3a7-49f5-8976-795acf79b6e3","locationLink.path":"/MC/Subscription","image":"jcr:266b5d3b-ac94-4d63-b74b-de8e185f1503","buttonBackgroundColor":"#000000"},"content":[],"variants":[{"componentName":"welcomeAdLayout","componentPath":"/marketing/mpc/muassets/variants/variant-12/welcomeAd/0/content/0/variants/variant-0","properties":{"backgroundColor":"#FAEF9F","mobileText":"<div class=\"welcomeAdLayout__Container\"> \n <div class=\"welcomeAdLayout__Login\"> \n  <a href=\"https://myaccount.nytimes.com/auth/login\" target=\"_blank\">Already a Subscriber? Log in</a> \n </div> \n <div class=\"welcomeAdLayout__Logo__Wrap\"> \n  <img class=\"welcomeAdLayout__Logo\" src=\"https://static01.nyt.com/marketing/assets/2017/nyt-logo-379x64.svg\"> \n </div> \n <div class=\"welcomeAdLayout__GIF__Wrap\"> \n  <img class=\"welcomeAdLayout__GIF\" src=\"https://mwcm.nyt.com/dam/mkt_assets/exo/img/RTS/October_19/RTS_Welcome_GIF.gif\"> \n </div> \n <a class=\"welcomeAdLayout__Button__Link\" href=\"${link:{uuid:{4bb210ef-c874-454d-a237-2b6d8d735174},repository:{website},path:{/subscription},nodeData:{},extension:{}}}?campaignId=67LWJ\"><span class=\"welcomeAdLayout__Custom__Button\">VIEW OFFER</span></a> \n</div>","altText":"The New York Times","campaignIdType":"manualCampaignId","width":93,"linkLabel":"SEE MY OPTIONS","buttonBackgroundColor":"#000000","text":"<div class=\"welcomeAdLayout__Container\"> \n <div class=\"welcomeAdLayout__Login\"> \n  <a href=\"https://myaccount.nytimes.com/auth/login\" target=\"_blank\">Already a Subscriber? Log in</a> \n </div> \n <div class=\"welcomeAdLayout__Logo__Wrap\"> \n  <img class=\"welcomeAdLayout__Logo\" src=\"https://static01.nyt.com/marketing/assets/2017/nyt-logo-379x64.svg\"> \n </div> \n <div class=\"welcomeAdLayout__GIF__Wrap\"> \n  <img class=\"welcomeAdLayout__GIF\" src=\"https://mwcm.nyt.com/dam/mkt_assets/exo/img/RTS/October_19/RTS_Welcome_GIF.gif\"> \n </div> \n <a class=\"welcomeAdLayout__Button__Link\" href=\"${link:{uuid:{4bb210ef-c874-454d-a237-2b6d8d735174},repository:{website},path:{/subscription},nodeData:{},extension:{}}}?campaignId=67LWJ\"><span class=\"welcomeAdLayout__Custom__Button\">VIEW OFFER</span></a> \n</div>","manualCampaignId":"67LWJ","locationLink":"1c6a5ea7-e3a7-49f5-8976-795acf79b6e3","locationLink.path":"/MC/Subscription","image":"jcr:266b5d3b-ac94-4d63-b74b-de8e185f1503"},"content":[],"variants":[],"segments":["/Geo/Countries/USA"],"segmentOperator":"OR"}],"segments":[],"segmentOperator":null}],"variants":[],"segments":[],"segmentOperator":null},{"componentName":"creativeOverride","componentPath":"/marketing/mpc/muassets/variants/variant-12/welcomeAd/00","properties":{"scss":".welcomeAdLayout{\n    padding: 0\n}\n.welcomeAdLayout__Text{\n    margin: 0\n}\n.welcomeAdLayout__image__wrap{\n    display: none;\n}\n.welcomeAdLayout__button{\n    display: none;\n}\n.welcomeAdLayout__nowrap{\n    white-space: nowrap;\n}\n.welcomeAdLayout__Container{\n    height: 225px;\n    padding-top: 100px;\n    padding-bottom: 100px;\n    display: flex;\n    flex-direction: column;\n    justify-content: space-between;\n    align-items: center;\n}\n.welcomeAdLayout__Custom__Button{\n    display: block;\n    width: 108px;\n    background-color: #000;\n    color: #fff;\n    font-size: 11px;\n    font-weight: 800;\n    border-radius: 3px;\n    font-family: nyt-franklin;\n    padding-right: 8px;\n    padding-left: 8px;\n    padding-top: 9px;\n    padding-bottom: 9px;\n    text-align: center;\n}\n.welcomeAdLayout__Button__Link{\n    text-decoration: none;\n}\n.welcomeAdLayout__Copy{\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n}\n.welcomeAdLayout__Copy__Top{\n    font-size: 11px;\n    font-weight: 800;\n    color: #fff;\n    background-color: #000;\n    padding: 4px 7px;\n    @media screen and (min-width: 375px){\n        font-size: 13px;\n        padding: 8px 10px;\n    }\n}\n.welcomeAdLayout__Copy__Offer{\n    font-size: 16.5px;\n    font-weight: 500;\n    background-color: #f3957d;\n    padding: 11px 9px;\n    @media screen and (min-width: 375px){\n        font-size: 18px;\n        padding: 15px 12px;\n    }\n}\n.welcomeAdLayout__Copy__Bottom{\n    font-size: 13px;\n    font-weight: 600;\n    background-color: #fff;\n    padding: 5px 16px;\n    font-style: italic;\n    @media screen and (min-width: 375px){\n        font-size: 15px;\n        padding: 11px 22px;\n    }\n}\n.welcomeAdLayout__IMG__Wrap{\n    display:flex;\n    justify-content: center;\n}\n.welcomeAdLayout__IMG{\n    width: 400px;\n    max-width: 87%\n}\n.welcomeAdLayout__Logo{\n    height: 27px;\n}\n.welcomeAdLayout__Login{\n    font-size: 11px;\n    color: #000;\n    position: absolute;\n    left: 20px;\n    top: 20px;\n    a {\n        color: #000;\n    }\n    @media screen and (min-width: 1024px){\n        left: auto;\n        right: 31px;\n        top: 41px;\n    }\n}\n@media screen and (min-width: 767px){\n    .welcomeAdLayout{\n        height: 320px;\n    }\n    .welcomeAdLayout__Container{\n        height: 220px;\n        padding-top: 50px;\n         padding-bottom: 50px;\n    }\n}\n@media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {  \n   /* IE10+ specific styles go here */ \n   \n   .welcomeAdLayout__image__wrap{\n       min-height: 1px;\n   }\n   .welcomeAdLayout__content__inner{\n       min-height: 1px;\n   }\n\n}\n\n","js":"function (assets) {\r\n    // Add your custom code here.\r\n}"},"content":[],"variants":[{"componentName":"creativeOverride","componentPath":"/marketing/mpc/muassets/variants/variant-12/welcomeAd/00/variants/variant-0","properties":{"scss":".welcomeAdLayout{\n    padding: 0\n}\n.welcomeAdLayout__Text{\n    margin: 0\n}\n.welcomeAdLayout__image__wrap{\n    display: none;\n}\n.welcomeAdLayout__button{\n    display: none;\n}\n.welcomeAdLayout__nowrap{\n    white-space: nowrap;\n}\n.welcomeAdLayout__Container{\n    height: 225px;\n    padding-top: 100px;\n    padding-bottom: 100px;\n    display: flex;\n    flex-direction: column;\n    justify-content: space-between;\n    align-items: center;\n}\n.welcomeAdLayout__Custom__Button{\n    display: block;\n    width: 108px;\n    background-color: #000;\n    color: #fff;\n    font-size: 11px;\n    font-weight: 800;\n    border-radius: 3px;\n    font-family: nyt-franklin;\n    padding-right: 8px;\n    padding-left: 8px;\n    padding-top: 9px;\n    padding-bottom: 9px;\n    text-align: center;\n}\n.welcomeAdLayout__Button__Link{\n    text-decoration: none;\n}\n.welcomeAdLayout__GIF{\n    width: 280px;\n    @media screen and (min-width: 375px){\n        width: 320px;\n    }\n}\n.welcomeAdLayout__Logo{\n    height: 27px;\n}\n.welcomeAdLayout__Login{\n    font-size: 11px;\n    color: #000;\n    position: absolute;\n    left: 20px;\n    top: 20px;\n    a {\n        color: #000;\n    }\n    @media screen and (min-width: 1024px){\n        left: auto;\n        right: 31px;\n        top: 41px;\n    }\n}\n@media screen and (min-width: 767px){\n    .welcomeAdLayout{\n        height: 320px;\n    }\n    .welcomeAdLayout__Container{\n        height: 220px;\n        padding-top: 50px;\n         padding-bottom: 50px;\n    }\n}\n@media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {  \n   /* IE10+ specific styles go here */ \n   \n   .welcomeAdLayout__image__wrap{\n       min-height: 1px;\n   }\n   .welcomeAdLayout__content__inner{\n       min-height: 1px;\n   }\n\n}\n\n","js":"function (assets) {\r\n    // Add your custom code here.\r\n}"},"content":[],"variants":[],"segments":["/Geo/Countries/USA"],"segmentOperator":"OR"}],"segments":[],"segmentOperator":null}]},{"areaName":"dock","status":"active","properties":{"status":"active"},"components":[{"componentName":"dock","componentPath":"/marketing/mpc/muassets/variants/variant-12/dock/0","properties":{"product":"none"},"content":[{"componentName":"standardDockLayout","componentPath":"/marketing/mpc/muassets/variants/variant-12/dock/0/content/0","properties":{"collapsedHeader":"<strong>@{#noHTML}@{#dynamicText}/meteredAssets/One_Day_Sale/Dock_Offer_Copy@{/dynamicText}@{/noHTML}</strong> 24 hours only.","campaignIdType":"manualCampaignId","manualCampaignId":"7FUK9","linkLabel":"Subscribe","locationLink":"1c6a5ea7-e3a7-49f5-8976-795acf79b6e3","locationLink.path":"/MC/Subscription","size":"standard"},"content":[],"variants":[{"componentName":"standardDockLayout","componentPath":"/marketing/mpc/muassets/variants/variant-12/dock/0/content/0/variants/variant-0","properties":{"collapsedHeader":"<strong>Subscribe for $1 a week.</strong> <span style=\"white-space: nowrap\"></span>24 hours only.</span>","manualCampaignId":"6YFYW","campaignIdType":"manualCampaignId","linkLabel":"Subscribe","locationLink":"1c6a5ea7-e3a7-49f5-8976-795acf79b6e3","locationLink.path":"/MC/Subscription","size":"standard"},"content":[],"variants":[],"segments":["/Geo/Countries/USA"],"segmentOperator":"OR"}],"segments":[],"segmentOperator":null}],"variants":[{"componentName":"dock","componentPath":"/marketing/mpc/muassets/variants/variant-12/dock/0/variants/variant-0","properties":{"product":"none"},"content":[{"componentName":"expandableDockLayout","componentPath":"/marketing/mpc/muassets/variants/variant-12/dock/0/variants/variant-0/content/0","properties":{"collapsedHeader":"<strong>@{#noHTML}@{#dynamicText}/meteredAssets/One_Day_Sale/Dock_Offer_Copy@{/dynamicText}@{/noHTML}</strong> <span style=\"white-space: nowrap\"></span>24 hours only.</span>","initialSize":"maximized","expandedHeader":"@{#dynamicText}/meteredAssets/Bolded_Meter_Copy@{/dynamicText}","expandedCta":"COLLAPSE","size":"expandable","collapsedCta":"SUBSCRIBE NOW"},"content":[{"componentName":"dockCard","componentPath":"/marketing/mpc/muassets/variants/variant-12/dock/0/variants/variant-0/content/0/content/0","properties":{"text":"<div class=\"dockCard__Container\"> \n <div class=\"dockCard__Logo_Wrap\"> \n  <img class=\"dockCard__Logo\" src=\"https://mwcm.nyt.com/dam/mkt_assets/exo/img/nyt-logo-379x64.svg\"> \n </div> @{#dynamicText}/meteredAssets/One_Day_Sale/OCT_19_IMG/Dock@{/dynamicText} \n <div class=\"dockCard__Custom__Button\">\n   VIEW OFFER \n </div> \n</div>","alternateText":"<div class=\"dockCard__Container\"> \n <div class=\"dockCard__Logo_Wrap\"> \n  <img class=\"dockCard__Logo\" src=\"https://mwcm.nyt.com/dam/mkt_assets/exo/img/nyt-logo-379x64.svg\"> \n </div> @{#dynamicText}/meteredAssets/One_Day_Sale/OCT_19_IMG/Dock@{/dynamicText} \n <div class=\"dockCard__Custom__Button\">\n   VIEW OFFER \n </div> \n</div>","textColor":"#ffffff","backgroundColor":"#FAEF9F","manualCampaignId":"7FUK9","campaignIdType":"manualCampaignId","mobileText":"<div class=\"dockCard__Container\"> \n <div class=\"dockCard__Logo_Wrap\"> \n  <img class=\"dockCard__Logo\" src=\"https://mwcm.nyt.com/dam/mkt_assets/exo/img/nyt-logo-379x64.svg\"> \n </div> @{#dynamicText}/meteredAssets/One_Day_Sale/OCT_19_IMG/Dock@{/dynamicText} \n <div class=\"dockCard__Custom__Button\">\n   VIEW OFFER \n </div> \n</div>","linkLabel":"SUBSCRIBE TODAY","locationLink":"1c6a5ea7-e3a7-49f5-8976-795acf79b6e3","locationLink.path":"/MC/Subscription","logoImage":"whiteLogo","buttonBackgroundColor":"#000000"},"content":[],"variants":[{"componentName":"dockCard","componentPath":"/marketing/mpc/muassets/variants/variant-12/dock/0/variants/variant-0/content/0/content/0/variants/variant-0","properties":{"textColor":"#ffffff","backgroundColor":"#FAEF9F","campaignIdType":"manualCampaignId","mobileText":"<div class=\"dockCard__Container\"> \n <div class=\"dockCard__Logo_Wrap\"> \n  <img class=\"dockCard__Logo\" src=\"https://mwcm.nyt.com/dam/mkt_assets/exo/img/nyt-logo-379x64.svg\"> \n </div> \n <div class=\"dockCard__GIF__Wrap\"> \n  <img class=\"dockCard__GIF\" src=\"https://mwcm.nyt.com/dam/mkt_assets/exo/img/RTS/October_19/Oct_RTS_ROW.png\"> \n </div> \n <div class=\"dockCard__Custom__Button\">\n   VIEW OFFER \n </div> \n</div>","linkLabel":"SUBSCRIBE TODAY","logoImage":"whiteLogo","buttonBackgroundColor":"#000000","text":"<div class=\"dockCard__Container\"> \n <div class=\"dockCard__Logo_Wrap\"> \n  <img class=\"dockCard__Logo\" src=\"https://mwcm.nyt.com/dam/mkt_assets/exo/img/nyt-logo-379x64.svg\"> \n </div> \n <div class=\"dockCard__GIF__Wrap\"> \n  <img class=\"dockCard__GIF\" src=\"https://mwcm.nyt.com/dam/mkt_assets/exo/img/RTS/October_19/Oct_RTS_ROW.png\"> \n </div> \n <div class=\"dockCard__Custom__Button\">\n   VIEW OFFER \n </div> \n</div>","alternateText":"<div class=\"dockCard__Container\"> \n <div class=\"dockCard__Logo_Wrap\"> \n  <img class=\"dockCard__Logo\" src=\"https://mwcm.nyt.com/dam/mkt_assets/exo/img/nyt-logo-379x64.svg\"> \n </div> \n <div class=\"dockCard__GIF__Wrap\"> \n  <img class=\"dockCard__GIF\" src=\"https://mwcm.nyt.com/dam/mkt_assets/exo/img/RTS/October_19/Oct_RTS_ROW.png\"> \n </div> \n <div class=\"dockCard__Custom__Button\">\n   VIEW OFFER \n </div> \n</div>","manualCampaignId":"6YFYW","locationLink":"1c6a5ea7-e3a7-49f5-8976-795acf79b6e3","locationLink.path":"/MC/Subscription"},"content":[],"variants":[],"segments":["/Geo/Countries/USA"],"segmentOperator":"OR"}],"segments":[],"segmentOperator":null}],"variants":[],"segments":[],"segmentOperator":null}],"variants":[],"segments":["/Meter/Meter-Count-1-4-7-8-9-10"],"segmentOperator":"AND"}],"segments":[],"segmentOperator":null},{"componentName":"creativeOverride","componentPath":"/marketing/mpc/muassets/variants/variant-12/dock/00","properties":{"scss":".dockCard__button {\n     display: none;\n}\n.dockCard__image__wrap {\n    display: none;\n}\n.dockCard__text{\n    width: 100%;\n}\n.dockCard__nowrap{\n    white-space: nowrap;\n}\n.dockCard{\n    height: 140px;\n}\n.dockCard__content{\n    padding: 0px;\n}\n.dockCard__Container {\n    display: flex;\n    align-items: center;\n    flex-direction: column;\n    justify-content: center;\n    height: 140px;\n}\n.dockCard__Logo{\n    display: none;\n}\n.dockCard__Copy{\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    line-height: 17px;\n}\n.dockCard__Copy__Top{\n    font-size: 9px;\n    font-weight: 800;\n    color: #fff;\n    background-color: #000;\n    padding: 4px 7px;\n    @media screen and (min-width: 600px){\n        font-size: 11px;\n        padding: 4px 9px;\n    }\n}\n.dockCard__Copy__Offer{\n    font-size: 15px;\n    font-weight: 500;\n    background-color: #f3957d;\n    padding: 6px 12px;\n    @media screen and (min-width: 600px){\n        font-size: 16.5px;\n        padding: 10px 12px;\n    }\n}\n.dockCard__Copy__Bottom{\n    font-size: 11px;\n    font-weight: 600;\n    background-color: #fff;\n    padding: 2px 8px;\n    font-style: italic;\n    margin-bottom: 4px;\n    @media screen and (min-width: 600px){\n        font-size: 13px;\n        padding: 4px 8px;\n        margin-bottom: 0px;\n    }\n}\n.dockCard__Custom__Button{\n    width: 100px;\n    height: 14px;\n    background-color: #000;\n    color: #ffffff;\n    font-size: 12px;\n    border-radius: 3px;\n    font-family: nyt-franklin;\n    font-weight: 800;\n    padding: 8px 0px;\n    text-align: center;\n}\n.dockCard__IMG{\n    width: 239px;\n    margin-top: -10px;\n    @media screen and (min-width: 599px){\n        margin-top: 5px;\n    }\n    @media screen and (min-width: 767px){\n        width: 254px;\n    }\n}\n@media screen and (min-width: 599px){\n    .dockCard__Container {\n        flex-direction: row;\n        justify-content: space-evenly;\n    }\n    .dockCard__Logo {\n        height: 27px;\n        display: block;\n    }\n    .dockCard__GIF{\n        width: 220px;\n        height: 90px;\n    }\n}\n","js":"function (assets) {\r\n    // Add your custom code here.\r\n}"},"content":[],"variants":[{"componentName":"creativeOverride","componentPath":"/marketing/mpc/muassets/variants/variant-12/dock/00/variants/variant-0","properties":{"scss":".dockCard__button {\n     display: none;\n}\n.dockCard__image__wrap {\n    display: none;\n}\n.dockCard__text{\n    width: 100%;\n}\n.dockCard__nowrap{\n    white-space: nowrap;\n}\n.dockCard{\n    height: 140px;\n}\n.dockCard__content{\n    padding: 0px;\n}\n.dockCard__Container {\n    display: flex;\n    align-items: center;\n    flex-direction: column;\n    justify-content: space-evenly;\n    height: 140px;\n    overflow: hidden;\n}\n.dockCard__Logo{\n    display: none;\n}\n.dockCard__GIF{\n    width: 180px;\n    margin-bottom: -20px;\n    margin-top: -25px;\n    @media screen and (min-width: 599px){\n        width: 200px;\n    }\n    @media screen and (min-width: 767px){\n      width: 230px;\n    }\n    \n}\n.dockCard__Custom__Button{\n    width: 100px;\n    height: 14px;\n    background-color: #000;\n    color: #ffffff;\n    font-size: 12px;\n    border-radius: 3px;\n    font-family: nyt-franklin;\n    font-weight: 800;\n    padding: 8px;\n    text-align: center;\n}\n@media screen and (min-width: 599px){\n    .dockCard__Container {\n        flex-direction: row;\n    }\n    .dockCard__Logo {\n        height: 27px;\n        display: block;\n    }\n}\n","js":"function (assets) {\r\n    // Add your custom code here.\r\n}"},"content":[],"variants":[],"segments":["/Geo/Countries/USA"],"segmentOperator":"OR"}],"segments":[],"segmentOperator":null}]},{"areaName":"gateway","status":"active","properties":{"status":"active"},"components":[{"componentName":"gatewayLink","componentPath":"/marketing/mpc/muassets/variants/variant-12/gateway/0","properties":{"gatewayLink":"4bb210ef-c874-454d-a237-2b6d8d735174","gatewayLink.path":"/subscription","manualCampaignId":"78KHW","campaignIdType":"manualCampaignId"},"content":[],"variants":[{"componentName":"gatewayLink","componentPath":"/marketing/mpc/muassets/variants/variant-12/gateway/0/variants/variant-0","properties":{"gatewayLink":"d903814c-4365-4026-91a0-973294124533","gatewayLink.path":"/subscription/gateway/subcon","campaignIdType":"manualCampaignId","manualCampaignId":"6YHFY"},"content":[],"variants":[],"segments":["/Geo/Countries/USA"],"segmentOperator":"OR"}],"segments":[],"segmentOperator":null}]},{"areaName":"truncator","status":"killset","properties":{"status":"inactive"},"components":[]},{"areaName":"mobileTruncator","status":"killset","properties":{"status":"inactive"},"components":[]}],"variant":true}]}
+{
+  "messagingUnits": [
+    {
+      "uuid": "0d807f99-bba6-4acd-be9d-92128054ce07",
+      "name": "variant-44",
+      "url": "https://www.nytimes.com/marketing/mpc/muassets/variants/variant-44",
+      "lastModified": "2020-01-07T15:28:49.78-05:00",
+      "lastModifiedBy": "anonymous",
+      "templateId": "mkt-wcm:pages/metered_assets/page/template/main",
+      "audienceName": "MAG_web_US_regi-anon_Verizon-Edu-Socrates",
+      "segmentOperator": "AND",
+      "segments": [
+        "/Platforms/web",
+        "/Geo/Countries/USA",
+        "/User-Status/Regi-or-Anonymous",
+        "/NYT-PURR/ad-configuration/adluce-socrates"
+      ],
+      "properties": {
+        "campaignName": "MAG_web_non-sub_US_Verizon-Edu-Socrates",
+        "marketingCampaigns.path": "/core",
+        "marketingCampaign": "14a7e1fc-5c6d-4102-853a-d63cfc97701a"
+      },
+      "areas": [
+        {
+          "areaName": "barOne",
+          "status": "active",
+          "properties": {
+            "frequencyCapEnabled": false,
+            "status": "active"
+          },
+          "components": [
+            {
+              "componentName": "barOne",
+              "componentPath": "/marketing/mpc/muassets/variants/variant-44/barOne/0",
+              "properties": {
+                "product": "none"
+              },
+              "content": [
+                {
+                  "componentName": "barOneLayout",
+                  "componentPath": "/marketing/mpc/muassets/variants/variant-44/barOne/0/content/0",
+                  "properties": {
+                    "campaignIdType": "none",
+                    "linkLabel": "Teaching Tools",
+                    "locationLink": "9fdfa69d-e527-4e62-b6a6-00afcc835baa",
+                    "locationLink.path": "/MC/The-Learning-Network"
+                  },
+                  "content": [],
+                  "variants": [],
+                  "segments": [],
+                  "segmentOperator": null
+                }
+              ],
+              "variants": [],
+              "segments": [],
+              "segmentOperator": null
+            }
+          ]
+        },
+        {
+          "areaName": "inlineUnit",
+          "status": "killset",
+          "properties": {
+            "status": "inactive"
+          },
+          "components": []
+        },
+        {
+          "areaName": "welcomeAd",
+          "status": "active",
+          "properties": {
+            "sessionCapImpressions": 1,
+            "frequencyCapEnabled": true,
+            "sessionCapTime": 24,
+            "status": "active"
+          },
+          "components": [
+            {
+              "componentName": "welcomeAd",
+              "componentPath": "/marketing/mpc/muassets/variants/variant-44/welcomeAd/0",
+              "properties": {
+                "product": "none"
+              },
+              "content": [
+                {
+                  "componentName": "welcomeAdLayout",
+                  "componentPath": "/marketing/mpc/muassets/variants/variant-44/welcomeAd/0/content/0",
+                  "properties": {
+                    "text": "<p class=\"welcomead-logo\"><img class=\"welcomead-nytlogo\" src=\"https://mwcm.nyt.com/dam/mkt_assets/exo/img/nyt-logo-379x64.svg\"></p> \n<p class=\"welcomead-headline\" style=\"text-align: center;\"><span style=\"font-size:36px;\"><span class=\"richText__weight--medium\"><span style=\"font-family:nyt-cheltenham;\"><span class=\"welcomead-headline-top\">Welcome to<br> The New York Times.</span></span></span></span></p> \n<div class=\"welcomead-sub\" style=\"line-height:1;text-align:center;\"> \n <span class=\"richText__weight--medium\"><span style=\"font-family:nyt-franklin;\">Enjoy unlimited free articles, videos and more.</span></span> \n</div> \n<div class=\"welcome-ad-partnership\">\n  In partnership with \n</div> \n<div class=\"welcomead-verizon-logo\"> \n <img src=\"https://mwcm.nyt.com/dam/Verizon_Edu/verizon-logo.svg\"> \n</div>",
+                    "backgroundColor": "#FBD88B",
+                    "campaignIdType": "none",
+                    "mobileText": "<div class=\"welcomead-content\"> \n <p class=\"welcomead-logo\"><img class=\"welcomead-nytlogo\" src=\"https://mwcm.nyt.com/dam/mkt_assets/exo/img/nyt-logo-379x64.svg\"></p> \n <p class=\"welcomead-headline\" style=\"text-align: center;\"><span style=\"font-size:29px;\"><span class=\"richText__weight--medium\"><span style=\"font-family:nyt-cheltenham;\"><span class=\"welcomead-headline-top\">Welcome to<br> The New York Times.</span></span></span></span></p> \n <div class=\"welcomead-sub\" style=\"line-height:1;text-align:center;\"> \n  <span style=\"font-size:16px;\"><span class=\"richText__weight--medium\"><span style=\"font-family:nyt-franklin;\">Enjoy unlimited free articles,<br> videos and more.</span></span></span> \n </div> \n <div class=\"welcome-ad-partnership\">\n   In partnership with \n </div> \n <div class=\"welcomead-verizon-logo\"> \n  <img src=\"https://mwcm.nyt.com/dam/Verizon_Edu/verizon-logo.svg\"> \n </div> \n</div>",
+                    "width": 100,
+                    "locationLink": "1c6a5ea7-e3a7-49f5-8976-795acf79b6e3",
+                    "locationLink.path": "/MC/Subscription",
+                    "buttonBackgroundColor": "#f3fe86"
+                  },
+                  "content": [],
+                  "variants": [],
+                  "segments": [],
+                  "segmentOperator": null
+                }
+              ],
+              "variants": [],
+              "segments": [],
+              "segmentOperator": null
+            },
+            {
+              "componentName": "creativeOverride",
+              "componentPath": "/marketing/mpc/muassets/variants/variant-44/welcomeAd/00",
+              "properties": {
+                "scss": ".welcomead-logo {\n    display: flex;\n    align-items: center;\n    flex-direction: column;\n    \n    @media screen and (min-width: 768px) { \n        width: 100%;\n        display: flex;\n        justify-content: center;\n        font-size: 24px;\n        margin-top: 6px;\n    }\n}\n\n.welcomead-nytlogo {\n    width: 166px;\n    @media screen and (max-width: 599px){\n        margin-top: -20px;\n        margin-bottom: 20px;\n    }\n}\n\n.welcomead-verizon-logo{\n    width: 100%;\n    display: flex;\n    justify-content: center;\n    img {\n        width: 108px;\n        @media screen and (max-width: 599px){\n            width: 100px;\n        }\n    }\n}\n.welcomead-headline-top{\n    font-weight: 300;\n}\n.welcome-ad-partnership{\n    display: flex;\n    justify-content: center;\n    font-size: 8px;\n    font-weight: 400;\n    margin-top: -10px;\n    margin-bottom: 12px;\n    @media screen and (max-width: 599px){\n        margin-top: -50px;\n    }\n}\n.welcomeAdLayout__button__wrap {\n    display: none;\n}\n\n.welcomeAdLayout {\n   background-image: url(\"https://mwcm.nyt.com/dam/Verizon_Edu/Verizon-Edu-Bg.png\");\n   background-repeat: no-repeat;\n   padding: 30px;\n   \n   @media screen and (max-width: 599px) {\n       padding: 25px;\n       padding-left: 20px;\n       padding-right: 20px;\n       width: 300px;\n       background-image: url(\"https://mwcm.nyt.com/dam/Verizon_Edu/Verizon-edu-bg-mobile.png\");\n   }\n   \n    @media screen and (min-width: 600px) {\n        height: 320px;\n        padding-top: 0px;\n   }\n   @media screen and (min-width: 768px){\n       padding-top: 20px;\n   }\n}\n\n.welcomead-headline {\n    margin: 40px auto 10px;\n    font-weight: 400;\n    letter-spacing: -.5px;\n}\n\n.welcomead-sub {\n    margin: 0 0 50px;\n    font-size: 17px;\n    @media screen and (max-width: 599px) {\n        margin: 0 0 160px;\n        font-size: 16px;\n    }\n}\n\n.nowrap {\n    white-space: nowrap;\n}",
+                "js": "function (assets) {\r\n    // Add your custom code here.\r\n}"
+              },
+              "content": [],
+              "variants": [],
+              "segments": [],
+              "segmentOperator": null
+            }
+          ]
+        },
+        {
+          "areaName": "dock",
+          "status": "killset",
+          "properties": {
+            "frequencyCapEnabled": false,
+            "status": "inactive"
+          },
+          "components": []
+        },
+        {
+          "areaName": "gateway",
+          "status": "killset",
+          "properties": {
+            "status": "inactive"
+          },
+          "components": []
+        },
+        {
+          "areaName": "truncator",
+          "status": "killset",
+          "properties": {
+            "status": "inactive"
+          },
+          "components": []
+        },
+        {
+          "areaName": "mobileTruncator",
+          "status": "killset",
+          "properties": {
+            "status": "inactive"
+          },
+          "components": []
+        }
+      ],
+      "variant": true
+    },
+    {
+      "uuid": "804fc667-ecab-4bad-b9bc-8f47520fa9d5",
+      "name": "variant-50",
+      "url": "https://www.nytimes.com/marketing/mpc/muassets/variants/variant-50",
+      "lastModified": "2020-01-07T15:14:31.791-05:00",
+      "lastModifiedBy": "anonymous",
+      "templateId": "mkt-wcm:pages/metered_assets/page/template/main",
+      "audienceName": "MAG_web_anon",
+      "segmentOperator": "AND",
+      "segments": [
+        "/Platforms/web",
+        "/User-Status/Anonymous"
+      ],
+      "properties": {
+        "campaignName": "MAG_web_anon_new-journey-rollout",
+        "promoDescription": "New Journey Rollout"
+      },
+      "areas": [
+        {
+          "areaName": "barOne",
+          "status": "active",
+          "properties": {
+            "status": "active"
+          },
+          "components": [
+            {
+              "componentName": "barOne",
+              "componentPath": "/marketing/mpc/muassets/variants/variant-50/barOne/0",
+              "properties": {
+                "product": "none"
+              },
+              "content": [
+                {
+                  "componentName": "barOneLayout",
+                  "componentPath": "/marketing/mpc/muassets/variants/variant-50/barOne/0/content/0",
+                  "properties": {
+                    "manualCampaignId": "797YR",
+                    "campaignIdType": "manualCampaignId",
+                    "link": "locationLink",
+                    "linkLabel": "Subscribe Now",
+                    "locationLink": "1c6a5ea7-e3a7-49f5-8976-795acf79b6e3",
+                    "locationLink.path": "/MC/Subscription"
+                  },
+                  "content": [],
+                  "variants": [],
+                  "segments": [],
+                  "segmentOperator": null
+                }
+              ],
+              "variants": [],
+              "segments": [],
+              "segmentOperator": null
+            }
+          ]
+        },
+        {
+          "areaName": "inlineUnit",
+          "status": "active",
+          "properties": {
+            "status": "active"
+          },
+          "components": [
+            {
+              "componentName": "inlineUnit",
+              "componentPath": "/marketing/mpc/muassets/variants/variant-50/inlineUnit/0",
+              "properties": {
+                "product": "none"
+              },
+              "content": [
+                {
+                  "componentName": "inlineUnitLayout",
+                  "componentPath": "/marketing/mpc/muassets/variants/variant-50/inlineUnit/0/content/0",
+                  "properties": {
+                    "manual": "https://myaccount.nytimes.com/auth/register",
+                    "campaignIdType": "manualCampaignId",
+                    "manualCampaignId": "7QF7X",
+                    "link": "locationLink",
+                    "linkLabel": "Create an account or log in",
+                    "message": "Unlock more free articles.",
+                    "locationLink": "21bc66e8-3bc0-448e-bf80-80671c9d62e2",
+                    "locationLink.path": "/MC/Create-account-link",
+                    "queryParameters": "response_type=cookie&client_id=freex&asset=InlineMessage&application=Free_Experience&redirect_uri=https%3A%2F%2Fwww.nytimes.com%2Fsubscription%2Fmultiproduct%2Flp8KQUS.html%3FcampaignID%3D7QF7X"
+                  },
+                  "content": [],
+                  "variants": [],
+                  "segments": [],
+                  "segmentOperator": null
+                }
+              ],
+              "variants": [],
+              "segments": [],
+              "segmentOperator": null
+            }
+          ]
+        },
+        {
+          "areaName": "welcomeAd",
+          "status": "active",
+          "properties": {
+            "frequencyCapImpressions": 3,
+            "frequencyCapTime": 365,
+            "sessionCapImpressions": 1,
+            "frequencyCapEnabled": true,
+            "sessionCapTime": 24,
+            "status": "active"
+          },
+          "components": [
+            {
+              "componentName": "welcomeAd",
+              "componentPath": "/marketing/mpc/muassets/variants/variant-50/welcomeAd/0",
+              "properties": {
+                "product": "none"
+              },
+              "content": [
+                {
+                  "componentName": "welcomeAdLayout",
+                  "componentPath": "/marketing/mpc/muassets/variants/variant-50/welcomeAd/0/content/0",
+                  "properties": {
+                    "textColor": "#000000",
+                    "backgroundColor": "#000000",
+                    "campaignIdType": "none",
+                    "altText": "The New York Times",
+                    "mobileText": "<div class=\"welcomeAdLayout__Container\"> \n <div class=\"welcomeAdLayout__Login\"> \n  <a href=\"https://myaccount.nytimes.com/auth/login\" target=\"_blank\">Already a Subscriber? Log in</a> \n </div> \n <div class=\"welcomeAdLayout__Hero\"> \n  <span class=\"richText__weight--light\"><span style=\"font-family:nyt-cheltenham;\">Create a free account or log in to access more of <span class=\"nowrap\">The Times.</span></span></span> \n </div> \n</div>",
+                    "link": "manual",
+                    "width": 100,
+                    "linkLabel": "CONTINUE",
+                    "buttonBackgroundColor": "#ffffff",
+                    "text": "<div class=\"welcomeAdLayout__Container\"> \n <div class=\"welcomeAdLayout__Login\"> \n  <a href=\"https://myaccount.nytimes.com/auth/login\" target=\"_blank\">Already a Subscriber? Log in</a> \n </div> \n <div class=\"welcomeAdLayout__Hero\"> \n </div> \n <div class=\"welcomeAdLayout__Hero\"> \n  <span style=\"font-family:nyt-cheltenham;\">Create a free account or log in to access more of <span class=\"nowrap\">The Times.</span></span> \n </div> \n</div>",
+                    "manual": "https://myaccount.nytimes.com/auth/register?response_type=cookie&client_id=freex&asset=WelcomeAd&application=Free_Experience&redirect_uri=https%3A%2F%2Fwww.nytimes.com%2Fsubscription%2Fmultiproduct%2Flp8KQUS.html%3FcampaignID%3D7UJQQ%26EXIT_URI%3Dhttps%3A%2F%2Fwww.nytimes.com%2F",
+                    "locationLink": "1c6a5ea7-e3a7-49f5-8976-795acf79b6e3",
+                    "locationLink.path": "/MC/Subscription",
+                    "image": "jcr:ae74ea82-4666-4f50-96b0-38ca50f32102"
+                  },
+                  "content": [],
+                  "variants": [],
+                  "segments": [],
+                  "segmentOperator": null
+                }
+              ],
+              "variants": [],
+              "segments": [],
+              "segmentOperator": null
+            },
+            {
+              "componentName": "creativeOverride",
+              "componentPath": "/marketing/mpc/muassets/variants/variant-50/welcomeAd/00",
+              "properties": {
+                "scss": ".welcomeAdLayout{\n    padding: 50px 0;\n    \n    @media screen and (min-width: 700px){\n        padding: 30px 50px;\n        height: 320px;\n    }\n}\n\n.welcomeAdLayout__Container{\n    margin-top: 15px;\n}\n\n.welcomeAdLayout__content__inner {\n    padding-top: 50px;\n}\n\n.welcomeAdLayout__image__wrap {\n    text-align: center;\n}\n\n.welcomeAdLayout__image {\n    width: 173px;\n    padding: 0px;\n    \n    @media screen and (min-width: 700px){\n        text-align: left;\n        width: 191px;\n    }\n}\n.welcomeAdLayout__text{\n    margin-bottom: 0px;\n}\n\n.welcomeAdLayout__button__wrap {\n    text-align: center;\n}\n\n.welcomeAdLayout__button{\n    font-weight: 800;\n    width: 96px;\n    height: 32px;\n    line-height: 32px;\n    padding: 0;\n    font-size: 12px;\n    \n    @media screen and (min-width: 465px){\n        font-size: 12px;\n        width: 116px;\n    }\n    \n    @media screen and (min-width: 700px){\n        font-size: 11px;\n        width: 108px;\n    }\n}\n\n.welcomeAdLayout__Hero{\n    text-align: center;\n    color: #FFF;\n    font-size: 22px;\n    line-height: 28px;\n    font-family: nyt-franklin;\n    padding: 0 20px;\n    \n    \n    @media screen and (min-width: 700px){\n        text-align: left;\n        font-size: 26px;\n        padding: 0;\n        width: 70%;\n        text-align: center;\n        margin: auto;\n    }\n}\n\n\n.welcomeAdLayout__Copy{\n    font-size: 15px;\n    margin-top: 100px;\n    margin-bottom: 14px;\n    color: #FFF;\n    font-weight: 800;\n    @media screen and (min-width: 465px){\n        font-size: 18px;\n    }\n    @media screen and (min-width: 700px){\n        margin-top: 30px;\n    }\n}\n.welcomeAdLayout__Copy__Headline{\n    font-size: 11px;\n    color: #FFF;\n    font-weight: 800;\n    margin-bottom: 5px;\n    @media screen and (min-width: 465px){\n        font-size: 13px;\n    }\n    @media screen and (min-width: 700px){\n        font-size: 14px;\n    }\n}\n\n@media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {  \n   /* IE10+ specific styles go here */ \n   \n   .welcomeAdLayout__image__wrap{\n       min-height: 1px;\n   }\n   .welcomeAdLayout__content__inner{\n       min-height: 1px;\n   }\n\n}\n.welcomeAdLayout__content {\n    height: 100%;\n    justify-content: space-around;\n}\n.welcomeAdLayout__Login{\n    font-size: 12px;\n    color: #FFF;\n    position: absolute;\n    left: 20px;\n    top: 20px;\n    a {\n        color: #FFF;\n    }\n    @media screen and (min-width: 465px){\n        font-size: 11px;\n        right: 31px;\n        top: 31px;\n    }\n}\n.nowrap{\n    white-space: nowrap;\n}\n.welcomeAdLayout__Top__Text{\n        line-height: 22px;\n        @media only screen and (max-width: 500px){\n            line-height: 18px;\n        }\n}\n\n#vi_welcome_close {\n  position: absolute;\n  background-clip: padding-box;\n  margin: 0;\n  padding: 0;\n  box-shadow: 0 0 0 1px #000, 0 0 0 2px #000, -1px 1px 2px 3px rgba(0, 0, 0, 0);\n  border: none;\n  background-color: #000;\n  width: 22px;\n  height: 22px;\n  right: 18px;\n  top: 14px;\n  cursor: pointer;\n  line-height: normal;\n  vertical-align: middle;\n  z-index: 10;\n}\n\n#vi_welcome_close:hover {\n  background-color: #000;\n}\n\n#vi_welcome_close:before {\n  -webkit-transform: rotate(45deg);\n  -ms-transform: rotate(45deg);\n  transform: rotate(45deg);\n}\n\n#vi_welcome_close:after {\n  -webkit-transform: rotate(135deg);\n  -ms-transform: rotate(135deg);\n  transform: rotate(135deg);\n}\n\n#vi_welcome_close:before,\n#vi_welcome_close:after {\n  content: \"\";\n  position: absolute;\n  display: block;\n  background-color: #fff;\n  top: 10px;\n  left: 3px;\n  width: 16px;\n  height: 1px;\n}",
+                "js": "function (assets) {\r\n    \r\n}"
+              },
+              "content": [],
+              "variants": [],
+              "segments": [],
+              "segmentOperator": null
+            }
+          ]
+        },
+        {
+          "areaName": "dock",
+          "status": "active",
+          "properties": {
+            "status": "active"
+          },
+          "components": [
+            {
+              "componentName": "dock",
+              "componentPath": "/marketing/mpc/muassets/variants/variant-50/dock/0",
+              "properties": {
+                "product": "none"
+              },
+              "content": [
+                {
+                  "componentName": "expandableDockLayout",
+                  "componentPath": "/marketing/mpc/muassets/variants/variant-50/dock/0/content/0",
+                  "properties": {
+                    "collapsedHeader": "<div class=\"dock_collapsed_header\">Access more of The Times by creating a free account or logging in.</div>",
+                    "manualCampaignId": "3D7FHH",
+                    "campaignIdType": "manualCampaignId",
+                    "initialSize": "maximized",
+                    "linkLabel": "Standard dock",
+                    "expandedHeader": "Access more for free.",
+                    "expandedCta": "COLLAPSE",
+                    "locationLink": "1c6a5ea7-e3a7-49f5-8976-795acf79b6e3",
+                    "locationLink.path": "/MC/Subscription",
+                    "collapsedCta": "EXPAND",
+                    "size": "expandable"
+                  },
+                  "content": [
+                    {
+                      "componentName": "dockCard",
+                      "componentPath": "/marketing/mpc/muassets/variants/variant-50/dock/0/content/0/content/0",
+                      "properties": {
+                        "textColor": "#000000",
+                        "backgroundColor": "#000000",
+                        "campaignIdType": "manualCampaignId",
+                        "mobileText": "<p><span style=\"font-family:nyt-cheltenham;\"><span style=\"font-size:18px;\"><span class=\"richText__weight--medium\"><span style=\"color:#ffffff;text-decoration:inherit;\">Create a free account or log in to access <span class=\"nowrap\">more of The Times.</span></span></span></span></span></p>",
+                        "link": "manual",
+                        "linkLabel": "CONTINUE",
+                        "referReplacementEnabled": true,
+                        "logoImage": "whiteLogo",
+                        "buttonBackgroundColor": "#FFFFFF",
+                        "text": "<p><span style=\"font-family:nyt-cheltenham;\"><span style=\"font-size:24px;\"><span class=\"richText__weight--medium\"><span style=\"color:#ffffff;text-decoration:inherit;\">Create a free account or log in to access <span class=\"nowrap\">more of The Times.</span></span></span></span></span></p>",
+                        "alternateText": "<p><span style=\"font-family:nyt-cheltenham;\"><span class=\"richText__weight--medium\"><span style=\"color:#ffffff;text-decoration:inherit;\">Create a free account or log in to access <span class=\"nowrap\">more of The Times.</span></span></span></span></p>",
+                        "manual": "https://myaccount.nytimes.com/auth/register",
+                        "manualCampaignId": "7FHH8",
+                        "locationLink": "1c6a5ea7-e3a7-49f5-8976-795acf79b6e3",
+                        "locationLink.path": "/MC/Subscription",
+                        "queryParameters": "response_type=cookie&client_id=freex&asset=Dock&application=Free_Experience&redirect_uri=https%3A%2F%2Fwww.nytimes.com%2Fsubscription%2Fmultiproduct%2Flp8KQUS.html%3FcampaignID%3D7FHH8"
+                      },
+                      "content": [],
+                      "variants": [],
+                      "segments": [],
+                      "segmentOperator": null
+                    }
+                  ],
+                  "variants": [],
+                  "segments": [],
+                  "segmentOperator": null
+                },
+                {
+                  "componentName": "creativeOverride",
+                  "componentPath": "/marketing/mpc/muassets/variants/variant-50/dock/0/content/00",
+                  "properties": {
+                    "scss": "\n.nowrap {\n  white-space: nowrap;\n}\n.dockCard {\n  height: 140px;\n}\n\n.dockCard__content {\n  height: 80px;\n  flex-direction: column !important;\n  padding: 20px !important;\n}\n\n@media only screen and (min-width: 500px) {\n  .dockCard__content {\n    height: 100px;\n    padding: 20px !important;\n    flex-direction: row !important;\n    justify-content: space-between;\n  }\n}\n\n.dockCard__content__inner {\n  display: flex !important;\n  flex-direction: row !important;\n  margin: auto;\n}\n\n.dockCard__button {\n  font-weight: 600;\n}\n\n.dockCard__text {\n  text-align: center;\n  width: 100%;\n}\n\n@media screen and (max-width: 650px) {\n  .dock_collapsed_header {\n    font-size: 14px;\n  }\n}\n\n.dockCard__button {\n  width: 100px;\n}\n\n@media only screen and (min-width: 768px) {\n  .dockCard__button {\n    width: 100px;\n  }\n}\n\n@media only screen and (max-width: 767px) {\n  .dockCard__button__wrap {\n    align-self: flex-start !important;\n    padding-top: 30px;\n  }\n\n  .dockCard__text.dockCard__text--mobile {\n    text-align: left;\n  }\n}\n\n.dockCard__text--mobile+.dockCard__text {\n  line-height: 22px;\n}\n\n@media only screen and (min-width: 768px) {\n  .dockCard__text--mobile+.dockCard__text {\n    width: 45%;\n    margin: auto;\n    line-height: 26px;\n  }\n}\n\n@media only screen and (min-width: 906px) {\n  .dockCard__text--mobile+.dockCard__text {\n    line-height: 32px;\n  }\n}\n\n@media only screen and (max-width: 767px) {\n  .dockCard__image__wrap {\n    display: none !important;\n  }\n}\n\n",
+                    "js": "function (assets) {\r\n    // Add your custom code here.\r\n}"
+                  },
+                  "content": [],
+                  "variants": [],
+                  "segments": [],
+                  "segmentOperator": null
+                }
+              ],
+              "variants": [],
+              "segments": [],
+              "segmentOperator": null
+            }
+          ]
+        },
+        {
+          "areaName": "gateway",
+          "status": "active",
+          "properties": {
+            "status": "active"
+          },
+          "components": [
+            {
+              "componentName": "gatewayLink",
+              "componentPath": "/marketing/mpc/muassets/variants/variant-50/gateway/0",
+              "properties": {
+                "campaignIdType": "none",
+                "gatewayLink": "099d631c-0b00-4f50-84c2-9d0a2c4a3183",
+                "gatewayLink.path": "/subscription/gateway/anonymous-newJourney"
+              },
+              "content": [],
+              "variants": [],
+              "segments": [],
+              "segmentOperator": null
+            }
+          ]
+        },
+        {
+          "areaName": "truncator",
+          "status": "killset",
+          "properties": {
+            "status": "inactive"
+          },
+          "components": []
+        },
+        {
+          "areaName": "mobileTruncator",
+          "status": "killset",
+          "properties": {
+            "status": "inactive"
+          },
+          "components": []
+        }
+      ],
+      "variant": true
+    },
+    {
+      "uuid": "81de68d3-ebec-48db-9f23-2cef9ab9df1b",
+      "name": "variant-12",
+      "url": "https://www.nytimes.com/marketing/mpc/muassets/variants/variant-12",
+      "lastModified": "2020-01-14T17:46:18.782-05:00",
+      "lastModifiedBy": "anonymous",
+      "templateId": "mkt-wcm:pages/metered_assets/page/template/main",
+      "audienceName": "MAG_web_regi_RTS",
+      "segmentOperator": "AND",
+      "segments": [
+        "/User-Status/Regi",
+        "/Platforms/web",
+        "/DateAndTime/RTS"
+      ],
+      "properties": {
+        "campaignName": "MAG_web_regi_rts",
+        "promoDescription": " RTS "
+      },
+      "areas": [
+        {
+          "areaName": "barOne",
+          "status": "active",
+          "properties": {
+            "status": "active"
+          },
+          "components": [
+            {
+              "componentName": "barOne",
+              "componentPath": "/marketing/mpc/muassets/variants/variant-12/barOne/0",
+              "properties": {
+                "product": "none"
+              },
+              "content": [
+                {
+                  "componentName": "barOneLayout",
+                  "componentPath": "/marketing/mpc/muassets/variants/variant-12/barOne/0/content/0",
+                  "properties": {
+                    "manualCampaignId": "7WWFH",
+                    "campaignIdType": "manualCampaignId",
+                    "linkLabel": "SUBSCRIBE NOW",
+                    "locationLink": "1c6a5ea7-e3a7-49f5-8976-795acf79b6e3",
+                    "locationLink.path": "/MC/Subscription"
+                  },
+                  "content": [],
+                  "variants": [],
+                  "segments": [],
+                  "segmentOperator": null
+                }
+              ],
+              "variants": [
+                {
+                  "componentName": "barOne",
+                  "componentPath": "/marketing/mpc/muassets/variants/variant-12/barOne/0/variants/variant-0",
+                  "properties": {
+                    "product": "none"
+                  },
+                  "content": [
+                    {
+                      "componentName": "barOneLayout",
+                      "componentPath": "/marketing/mpc/muassets/variants/variant-12/barOne/0/variants/variant-0/content/0",
+                      "properties": {
+                        "manualCampaignId": "67LXL",
+                        "campaignIdType": "manualCampaignId",
+                        "linkLabel": "SUBSCRIBE NOW",
+                        "locationLink": "1c6a5ea7-e3a7-49f5-8976-795acf79b6e3",
+                        "locationLink.path": "/MC/Subscription"
+                      },
+                      "content": [],
+                      "variants": [],
+                      "segments": [],
+                      "segmentOperator": null
+                    }
+                  ],
+                  "variants": [],
+                  "segments": [
+                    "/Geo/Countries/USA"
+                  ],
+                  "segmentOperator": "OR"
+                }
+              ],
+              "segments": [],
+              "segmentOperator": null
+            }
+          ]
+        },
+        {
+          "areaName": "inlineUnit",
+          "status": "active",
+          "properties": {
+            "status": "active"
+          },
+          "components": [
+            {
+              "componentName": "inlineUnit",
+              "componentPath": "/marketing/mpc/muassets/variants/variant-12/inlineUnit/0",
+              "properties": {
+                "product": "none"
+              },
+              "content": [
+                {
+                  "componentName": "inlineUnitLayout",
+                  "componentPath": "/marketing/mpc/muassets/variants/variant-12/inlineUnit/0/content/0",
+                  "properties": {
+                    "campaignIdType": "manualCampaignId",
+                    "manualCampaignId": "7UU8U",
+                    "linkLabel": "Subscribe to The Times",
+                    "message": "@{#noHTML}@{#dynamicText}/genericMeterCopy@{/dynamicText}@{/noHTML}",
+                    "locationLink": "1c6a5ea7-e3a7-49f5-8976-795acf79b6e3",
+                    "locationLink.path": "/MC/Subscription"
+                  },
+                  "content": [],
+                  "variants": [],
+                  "segments": [],
+                  "segmentOperator": null
+                }
+              ],
+              "variants": [
+                {
+                  "componentName": "inlineUnit",
+                  "componentPath": "/marketing/mpc/muassets/variants/variant-12/inlineUnit/0/variants/variant-0",
+                  "properties": {
+                    "product": "none"
+                  },
+                  "content": [
+                    {
+                      "componentName": "inlineUnitLayout",
+                      "componentPath": "/marketing/mpc/muassets/variants/variant-12/inlineUnit/0/variants/variant-0/content/0",
+                      "properties": {
+                        "manualCampaignId": "6YHJF",
+                        "campaignIdType": "manualCampaignId",
+                        "linkLabel": "Subscribe to The Times",
+                        "message": "@{#noHTML}@{#dynamicText}/genericMeterCopy@{/dynamicText}@{/noHTML}",
+                        "locationLink": "1c6a5ea7-e3a7-49f5-8976-795acf79b6e3",
+                        "locationLink.path": "/MC/Subscription"
+                      },
+                      "content": [],
+                      "variants": [],
+                      "segments": [],
+                      "segmentOperator": null
+                    }
+                  ],
+                  "variants": [],
+                  "segments": [
+                    "/Geo/Countries/USA"
+                  ],
+                  "segmentOperator": "OR"
+                }
+              ],
+              "segments": [],
+              "segmentOperator": null
+            }
+          ]
+        },
+        {
+          "areaName": "welcomeAd",
+          "status": "active",
+          "properties": {
+            "frequencyCapImpressions": 3,
+            "frequencyCapTime": 7,
+            "sessionCapImpressions": 1,
+            "frequencyCapEnabled": true,
+            "sessionCapTime": 1,
+            "status": "active"
+          },
+          "components": [
+            {
+              "componentName": "welcomeAd",
+              "componentPath": "/marketing/mpc/muassets/variants/variant-12/welcomeAd/0",
+              "properties": {
+                "product": "none"
+              },
+              "content": [
+                {
+                  "componentName": "welcomeAdLayout",
+                  "componentPath": "/marketing/mpc/muassets/variants/variant-12/welcomeAd/0/content/0",
+                  "properties": {
+                    "text": "<div class=\"welcomeAdLayout__Container\"> \n <div class=\"welcomeAdLayout__Logo__Wrap\"> \n  <img class=\"welcomeAdLayout__Logo\" src=\"https://static01.nyt.com/marketing/assets/2017/nyt-logo-379x64.svg\"> \n </div> @{#dynamicText}/meteredAssets/One_Day_Sale/OCT_19_IMG/Welcome@{/dynamicText} \n <a class=\"welcomeAdLayout__Button__Link\" href=\"${link:{uuid:{4bb210ef-c874-454d-a237-2b6d8d735174},repository:{website},path:{/subscription},nodeData:{},extension:{}}}?campaignId=7WRJW\"><span class=\"welcomeAdLayout__Custom__Button\">VIEW OFFER</span></a> \n</div>",
+                    "backgroundColor": "#FAEF9F",
+                    "altText": "The New York Times",
+                    "mobileText": "<div class=\"welcomeAdLayout__Container\"> \n <div class=\"welcomeAdLayout__Logo__Wrap\"> \n  <img class=\"welcomeAdLayout__Logo\" src=\"https://static01.nyt.com/marketing/assets/2017/nyt-logo-379x64.svg\"> \n </div> @{#dynamicText}/meteredAssets/One_Day_Sale/OCT_19_IMG/Welcome@{/dynamicText} \n <a class=\"welcomeAdLayout__Button__Link\" href=\"${link:{uuid:{4bb210ef-c874-454d-a237-2b6d8d735174},repository:{website},path:{/subscription},nodeData:{},extension:{}}}?campaignId=7WRJW\"><span class=\"welcomeAdLayout__Custom__Button\">VIEW OFFER</span></a> \n</div>",
+                    "manualCampaignId": "7WRJW",
+                    "campaignIdType": "manualCampaignId",
+                    "width": 93,
+                    "linkLabel": "SEE MY OPTIONS",
+                    "locationLink": "1c6a5ea7-e3a7-49f5-8976-795acf79b6e3",
+                    "locationLink.path": "/MC/Subscription",
+                    "image": "jcr:266b5d3b-ac94-4d63-b74b-de8e185f1503",
+                    "buttonBackgroundColor": "#000000"
+                  },
+                  "content": [],
+                  "variants": [
+                    {
+                      "componentName": "welcomeAdLayout",
+                      "componentPath": "/marketing/mpc/muassets/variants/variant-12/welcomeAd/0/content/0/variants/variant-0",
+                      "properties": {
+                        "backgroundColor": "#FAEF9F",
+                        "mobileText": "<div class=\"welcomeAdLayout__Container\"> \n <div class=\"welcomeAdLayout__Login\"> \n  <a href=\"https://myaccount.nytimes.com/auth/login\" target=\"_blank\">Already a Subscriber? Log in</a> \n </div> \n <div class=\"welcomeAdLayout__Logo__Wrap\"> \n  <img class=\"welcomeAdLayout__Logo\" src=\"https://static01.nyt.com/marketing/assets/2017/nyt-logo-379x64.svg\"> \n </div> \n <div class=\"welcomeAdLayout__GIF__Wrap\"> \n  <img class=\"welcomeAdLayout__GIF\" src=\"https://mwcm.nyt.com/dam/mkt_assets/exo/img/RTS/October_19/RTS_Welcome_GIF.gif\"> \n </div> \n <a class=\"welcomeAdLayout__Button__Link\" href=\"${link:{uuid:{4bb210ef-c874-454d-a237-2b6d8d735174},repository:{website},path:{/subscription},nodeData:{},extension:{}}}?campaignId=67LWJ\"><span class=\"welcomeAdLayout__Custom__Button\">VIEW OFFER</span></a> \n</div>",
+                        "altText": "The New York Times",
+                        "campaignIdType": "manualCampaignId",
+                        "width": 93,
+                        "linkLabel": "SEE MY OPTIONS",
+                        "buttonBackgroundColor": "#000000",
+                        "text": "<div class=\"welcomeAdLayout__Container\"> \n <div class=\"welcomeAdLayout__Login\"> \n  <a href=\"https://myaccount.nytimes.com/auth/login\" target=\"_blank\">Already a Subscriber? Log in</a> \n </div> \n <div class=\"welcomeAdLayout__Logo__Wrap\"> \n  <img class=\"welcomeAdLayout__Logo\" src=\"https://static01.nyt.com/marketing/assets/2017/nyt-logo-379x64.svg\"> \n </div> \n <div class=\"welcomeAdLayout__GIF__Wrap\"> \n  <img class=\"welcomeAdLayout__GIF\" src=\"https://mwcm.nyt.com/dam/mkt_assets/exo/img/RTS/October_19/RTS_Welcome_GIF.gif\"> \n </div> \n <a class=\"welcomeAdLayout__Button__Link\" href=\"${link:{uuid:{4bb210ef-c874-454d-a237-2b6d8d735174},repository:{website},path:{/subscription},nodeData:{},extension:{}}}?campaignId=67LWJ\"><span class=\"welcomeAdLayout__Custom__Button\">VIEW OFFER</span></a> \n</div>",
+                        "manualCampaignId": "67LWJ",
+                        "locationLink": "1c6a5ea7-e3a7-49f5-8976-795acf79b6e3",
+                        "locationLink.path": "/MC/Subscription",
+                        "image": "jcr:266b5d3b-ac94-4d63-b74b-de8e185f1503"
+                      },
+                      "content": [],
+                      "variants": [],
+                      "segments": [
+                        "/Geo/Countries/USA"
+                      ],
+                      "segmentOperator": "OR"
+                    }
+                  ],
+                  "segments": [],
+                  "segmentOperator": null
+                }
+              ],
+              "variants": [],
+              "segments": [],
+              "segmentOperator": null
+            },
+            {
+              "componentName": "creativeOverride",
+              "componentPath": "/marketing/mpc/muassets/variants/variant-12/welcomeAd/00",
+              "properties": {
+                "scss": ".welcomeAdLayout{\n    padding: 0\n}\n.welcomeAdLayout__Text{\n    margin: 0\n}\n.welcomeAdLayout__image__wrap{\n    display: none;\n}\n.welcomeAdLayout__button{\n    display: none;\n}\n.welcomeAdLayout__nowrap{\n    white-space: nowrap;\n}\n.welcomeAdLayout__Container{\n    height: 225px;\n    padding-top: 100px;\n    padding-bottom: 100px;\n    display: flex;\n    flex-direction: column;\n    justify-content: space-between;\n    align-items: center;\n}\n.welcomeAdLayout__Custom__Button{\n    display: block;\n    width: 108px;\n    background-color: #000;\n    color: #fff;\n    font-size: 11px;\n    font-weight: 800;\n    border-radius: 3px;\n    font-family: nyt-franklin;\n    padding-right: 8px;\n    padding-left: 8px;\n    padding-top: 9px;\n    padding-bottom: 9px;\n    text-align: center;\n}\n.welcomeAdLayout__Button__Link{\n    text-decoration: none;\n}\n.welcomeAdLayout__Copy{\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n}\n.welcomeAdLayout__Copy__Top{\n    font-size: 11px;\n    font-weight: 800;\n    color: #fff;\n    background-color: #000;\n    padding: 4px 7px;\n    @media screen and (min-width: 375px){\n        font-size: 13px;\n        padding: 8px 10px;\n    }\n}\n.welcomeAdLayout__Copy__Offer{\n    font-size: 16.5px;\n    font-weight: 500;\n    background-color: #f3957d;\n    padding: 11px 9px;\n    @media screen and (min-width: 375px){\n        font-size: 18px;\n        padding: 15px 12px;\n    }\n}\n.welcomeAdLayout__Copy__Bottom{\n    font-size: 13px;\n    font-weight: 600;\n    background-color: #fff;\n    padding: 5px 16px;\n    font-style: italic;\n    @media screen and (min-width: 375px){\n        font-size: 15px;\n        padding: 11px 22px;\n    }\n}\n.welcomeAdLayout__IMG__Wrap{\n    display:flex;\n    justify-content: center;\n}\n.welcomeAdLayout__IMG{\n    width: 400px;\n    max-width: 87%\n}\n.welcomeAdLayout__Logo{\n    height: 27px;\n}\n.welcomeAdLayout__Login{\n    font-size: 11px;\n    color: #000;\n    position: absolute;\n    left: 20px;\n    top: 20px;\n    a {\n        color: #000;\n    }\n    @media screen and (min-width: 1024px){\n        left: auto;\n        right: 31px;\n        top: 41px;\n    }\n}\n@media screen and (min-width: 767px){\n    .welcomeAdLayout{\n        height: 320px;\n    }\n    .welcomeAdLayout__Container{\n        height: 220px;\n        padding-top: 50px;\n         padding-bottom: 50px;\n    }\n}\n@media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {  \n   /* IE10+ specific styles go here */ \n   \n   .welcomeAdLayout__image__wrap{\n       min-height: 1px;\n   }\n   .welcomeAdLayout__content__inner{\n       min-height: 1px;\n   }\n\n}\n\n",
+                "js": "function (assets) {\r\n    // Add your custom code here.\r\n}"
+              },
+              "content": [],
+              "variants": [
+                {
+                  "componentName": "creativeOverride",
+                  "componentPath": "/marketing/mpc/muassets/variants/variant-12/welcomeAd/00/variants/variant-0",
+                  "properties": {
+                    "scss": ".welcomeAdLayout{\n    padding: 0\n}\n.welcomeAdLayout__Text{\n    margin: 0\n}\n.welcomeAdLayout__image__wrap{\n    display: none;\n}\n.welcomeAdLayout__button{\n    display: none;\n}\n.welcomeAdLayout__nowrap{\n    white-space: nowrap;\n}\n.welcomeAdLayout__Container{\n    height: 225px;\n    padding-top: 100px;\n    padding-bottom: 100px;\n    display: flex;\n    flex-direction: column;\n    justify-content: space-between;\n    align-items: center;\n}\n.welcomeAdLayout__Custom__Button{\n    display: block;\n    width: 108px;\n    background-color: #000;\n    color: #fff;\n    font-size: 11px;\n    font-weight: 800;\n    border-radius: 3px;\n    font-family: nyt-franklin;\n    padding-right: 8px;\n    padding-left: 8px;\n    padding-top: 9px;\n    padding-bottom: 9px;\n    text-align: center;\n}\n.welcomeAdLayout__Button__Link{\n    text-decoration: none;\n}\n.welcomeAdLayout__GIF{\n    width: 280px;\n    @media screen and (min-width: 375px){\n        width: 320px;\n    }\n}\n.welcomeAdLayout__Logo{\n    height: 27px;\n}\n.welcomeAdLayout__Login{\n    font-size: 11px;\n    color: #000;\n    position: absolute;\n    left: 20px;\n    top: 20px;\n    a {\n        color: #000;\n    }\n    @media screen and (min-width: 1024px){\n        left: auto;\n        right: 31px;\n        top: 41px;\n    }\n}\n@media screen and (min-width: 767px){\n    .welcomeAdLayout{\n        height: 320px;\n    }\n    .welcomeAdLayout__Container{\n        height: 220px;\n        padding-top: 50px;\n         padding-bottom: 50px;\n    }\n}\n@media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {  \n   /* IE10+ specific styles go here */ \n   \n   .welcomeAdLayout__image__wrap{\n       min-height: 1px;\n   }\n   .welcomeAdLayout__content__inner{\n       min-height: 1px;\n   }\n\n}\n\n",
+                    "js": "function (assets) {\r\n    // Add your custom code here.\r\n}"
+                  },
+                  "content": [],
+                  "variants": [],
+                  "segments": [
+                    "/Geo/Countries/USA"
+                  ],
+                  "segmentOperator": "OR"
+                }
+              ],
+              "segments": [],
+              "segmentOperator": null
+            }
+          ]
+        },
+        {
+          "areaName": "dock",
+          "status": "active",
+          "properties": {
+            "status": "active"
+          },
+          "components": [
+            {
+              "componentName": "dock",
+              "componentPath": "/marketing/mpc/muassets/variants/variant-12/dock/0",
+              "properties": {
+                "product": "none"
+              },
+              "content": [
+                {
+                  "componentName": "standardDockLayout",
+                  "componentPath": "/marketing/mpc/muassets/variants/variant-12/dock/0/content/0",
+                  "properties": {
+                    "collapsedHeader": "<strong>@{#noHTML}@{#dynamicText}/meteredAssets/One_Day_Sale/Dock_Offer_Copy@{/dynamicText}@{/noHTML}</strong> 24 hours only.",
+                    "campaignIdType": "manualCampaignId",
+                    "manualCampaignId": "7FUK9",
+                    "linkLabel": "Subscribe",
+                    "locationLink": "1c6a5ea7-e3a7-49f5-8976-795acf79b6e3",
+                    "locationLink.path": "/MC/Subscription",
+                    "size": "standard"
+                  },
+                  "content": [],
+                  "variants": [
+                    {
+                      "componentName": "standardDockLayout",
+                      "componentPath": "/marketing/mpc/muassets/variants/variant-12/dock/0/content/0/variants/variant-0",
+                      "properties": {
+                        "collapsedHeader": "<strong>Subscribe for $1 a week.</strong> <span style=\"white-space: nowrap\"></span>24 hours only.</span>",
+                        "manualCampaignId": "6YFYW",
+                        "campaignIdType": "manualCampaignId",
+                        "linkLabel": "Subscribe",
+                        "locationLink": "1c6a5ea7-e3a7-49f5-8976-795acf79b6e3",
+                        "locationLink.path": "/MC/Subscription",
+                        "size": "standard"
+                      },
+                      "content": [],
+                      "variants": [],
+                      "segments": [
+                        "/Geo/Countries/USA"
+                      ],
+                      "segmentOperator": "OR"
+                    }
+                  ],
+                  "segments": [],
+                  "segmentOperator": null
+                }
+              ],
+              "variants": [
+                {
+                  "componentName": "dock",
+                  "componentPath": "/marketing/mpc/muassets/variants/variant-12/dock/0/variants/variant-0",
+                  "properties": {
+                    "product": "none"
+                  },
+                  "content": [
+                    {
+                      "componentName": "expandableDockLayout",
+                      "componentPath": "/marketing/mpc/muassets/variants/variant-12/dock/0/variants/variant-0/content/0",
+                      "properties": {
+                        "collapsedHeader": "<strong>@{#noHTML}@{#dynamicText}/meteredAssets/One_Day_Sale/Dock_Offer_Copy@{/dynamicText}@{/noHTML}</strong> <span style=\"white-space: nowrap\"></span>24 hours only.</span>",
+                        "initialSize": "maximized",
+                        "expandedHeader": "@{#dynamicText}/meteredAssets/Bolded_Meter_Copy@{/dynamicText}",
+                        "expandedCta": "COLLAPSE",
+                        "size": "expandable",
+                        "collapsedCta": "SUBSCRIBE NOW"
+                      },
+                      "content": [
+                        {
+                          "componentName": "dockCard",
+                          "componentPath": "/marketing/mpc/muassets/variants/variant-12/dock/0/variants/variant-0/content/0/content/0",
+                          "properties": {
+                            "text": "<div class=\"dockCard__Container\"> \n <div class=\"dockCard__Logo_Wrap\"> \n  <img class=\"dockCard__Logo\" src=\"https://mwcm.nyt.com/dam/mkt_assets/exo/img/nyt-logo-379x64.svg\"> \n </div> @{#dynamicText}/meteredAssets/One_Day_Sale/OCT_19_IMG/Dock@{/dynamicText} \n <div class=\"dockCard__Custom__Button\">\n   VIEW OFFER \n </div> \n</div>",
+                            "alternateText": "<div class=\"dockCard__Container\"> \n <div class=\"dockCard__Logo_Wrap\"> \n  <img class=\"dockCard__Logo\" src=\"https://mwcm.nyt.com/dam/mkt_assets/exo/img/nyt-logo-379x64.svg\"> \n </div> @{#dynamicText}/meteredAssets/One_Day_Sale/OCT_19_IMG/Dock@{/dynamicText} \n <div class=\"dockCard__Custom__Button\">\n   VIEW OFFER \n </div> \n</div>",
+                            "textColor": "#ffffff",
+                            "backgroundColor": "#FAEF9F",
+                            "manualCampaignId": "7FUK9",
+                            "campaignIdType": "manualCampaignId",
+                            "mobileText": "<div class=\"dockCard__Container\"> \n <div class=\"dockCard__Logo_Wrap\"> \n  <img class=\"dockCard__Logo\" src=\"https://mwcm.nyt.com/dam/mkt_assets/exo/img/nyt-logo-379x64.svg\"> \n </div> @{#dynamicText}/meteredAssets/One_Day_Sale/OCT_19_IMG/Dock@{/dynamicText} \n <div class=\"dockCard__Custom__Button\">\n   VIEW OFFER \n </div> \n</div>",
+                            "linkLabel": "SUBSCRIBE TODAY",
+                            "locationLink": "1c6a5ea7-e3a7-49f5-8976-795acf79b6e3",
+                            "locationLink.path": "/MC/Subscription",
+                            "logoImage": "whiteLogo",
+                            "buttonBackgroundColor": "#000000"
+                          },
+                          "content": [],
+                          "variants": [
+                            {
+                              "componentName": "dockCard",
+                              "componentPath": "/marketing/mpc/muassets/variants/variant-12/dock/0/variants/variant-0/content/0/content/0/variants/variant-0",
+                              "properties": {
+                                "textColor": "#ffffff",
+                                "backgroundColor": "#FAEF9F",
+                                "campaignIdType": "manualCampaignId",
+                                "mobileText": "<div class=\"dockCard__Container\"> \n <div class=\"dockCard__Logo_Wrap\"> \n  <img class=\"dockCard__Logo\" src=\"https://mwcm.nyt.com/dam/mkt_assets/exo/img/nyt-logo-379x64.svg\"> \n </div> \n <div class=\"dockCard__GIF__Wrap\"> \n  <img class=\"dockCard__GIF\" src=\"https://mwcm.nyt.com/dam/mkt_assets/exo/img/RTS/October_19/Oct_RTS_ROW.png\"> \n </div> \n <div class=\"dockCard__Custom__Button\">\n   VIEW OFFER \n </div> \n</div>",
+                                "linkLabel": "SUBSCRIBE TODAY",
+                                "logoImage": "whiteLogo",
+                                "buttonBackgroundColor": "#000000",
+                                "text": "<div class=\"dockCard__Container\"> \n <div class=\"dockCard__Logo_Wrap\"> \n  <img class=\"dockCard__Logo\" src=\"https://mwcm.nyt.com/dam/mkt_assets/exo/img/nyt-logo-379x64.svg\"> \n </div> \n <div class=\"dockCard__GIF__Wrap\"> \n  <img class=\"dockCard__GIF\" src=\"https://mwcm.nyt.com/dam/mkt_assets/exo/img/RTS/October_19/Oct_RTS_ROW.png\"> \n </div> \n <div class=\"dockCard__Custom__Button\">\n   VIEW OFFER \n </div> \n</div>",
+                                "alternateText": "<div class=\"dockCard__Container\"> \n <div class=\"dockCard__Logo_Wrap\"> \n  <img class=\"dockCard__Logo\" src=\"https://mwcm.nyt.com/dam/mkt_assets/exo/img/nyt-logo-379x64.svg\"> \n </div> \n <div class=\"dockCard__GIF__Wrap\"> \n  <img class=\"dockCard__GIF\" src=\"https://mwcm.nyt.com/dam/mkt_assets/exo/img/RTS/October_19/Oct_RTS_ROW.png\"> \n </div> \n <div class=\"dockCard__Custom__Button\">\n   VIEW OFFER \n </div> \n</div>",
+                                "manualCampaignId": "6YFYW",
+                                "locationLink": "1c6a5ea7-e3a7-49f5-8976-795acf79b6e3",
+                                "locationLink.path": "/MC/Subscription"
+                              },
+                              "content": [],
+                              "variants": [],
+                              "segments": [
+                                "/Geo/Countries/USA"
+                              ],
+                              "segmentOperator": "OR"
+                            }
+                          ],
+                          "segments": [],
+                          "segmentOperator": null
+                        }
+                      ],
+                      "variants": [],
+                      "segments": [],
+                      "segmentOperator": null
+                    }
+                  ],
+                  "variants": [],
+                  "segments": [
+                    "/Meter/Meter-Count-1-4-7-8-9-10"
+                  ],
+                  "segmentOperator": "AND"
+                }
+              ],
+              "segments": [],
+              "segmentOperator": null
+            },
+            {
+              "componentName": "creativeOverride",
+              "componentPath": "/marketing/mpc/muassets/variants/variant-12/dock/00",
+              "properties": {
+                "scss": ".dockCard__button {\n     display: none;\n}\n.dockCard__image__wrap {\n    display: none;\n}\n.dockCard__text{\n    width: 100%;\n}\n.dockCard__nowrap{\n    white-space: nowrap;\n}\n.dockCard{\n    height: 140px;\n}\n.dockCard__content{\n    padding: 0px;\n}\n.dockCard__Container {\n    display: flex;\n    align-items: center;\n    flex-direction: column;\n    justify-content: center;\n    height: 140px;\n}\n.dockCard__Logo{\n    display: none;\n}\n.dockCard__Copy{\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    line-height: 17px;\n}\n.dockCard__Copy__Top{\n    font-size: 9px;\n    font-weight: 800;\n    color: #fff;\n    background-color: #000;\n    padding: 4px 7px;\n    @media screen and (min-width: 600px){\n        font-size: 11px;\n        padding: 4px 9px;\n    }\n}\n.dockCard__Copy__Offer{\n    font-size: 15px;\n    font-weight: 500;\n    background-color: #f3957d;\n    padding: 6px 12px;\n    @media screen and (min-width: 600px){\n        font-size: 16.5px;\n        padding: 10px 12px;\n    }\n}\n.dockCard__Copy__Bottom{\n    font-size: 11px;\n    font-weight: 600;\n    background-color: #fff;\n    padding: 2px 8px;\n    font-style: italic;\n    margin-bottom: 4px;\n    @media screen and (min-width: 600px){\n        font-size: 13px;\n        padding: 4px 8px;\n        margin-bottom: 0px;\n    }\n}\n.dockCard__Custom__Button{\n    width: 100px;\n    height: 14px;\n    background-color: #000;\n    color: #ffffff;\n    font-size: 12px;\n    border-radius: 3px;\n    font-family: nyt-franklin;\n    font-weight: 800;\n    padding: 8px 0px;\n    text-align: center;\n}\n.dockCard__IMG{\n    width: 239px;\n    margin-top: -10px;\n    @media screen and (min-width: 599px){\n        margin-top: 5px;\n    }\n    @media screen and (min-width: 767px){\n        width: 254px;\n    }\n}\n@media screen and (min-width: 599px){\n    .dockCard__Container {\n        flex-direction: row;\n        justify-content: space-evenly;\n    }\n    .dockCard__Logo {\n        height: 27px;\n        display: block;\n    }\n    .dockCard__GIF{\n        width: 220px;\n        height: 90px;\n    }\n}\n",
+                "js": "function (assets) {\r\n    // Add your custom code here.\r\n}"
+              },
+              "content": [],
+              "variants": [
+                {
+                  "componentName": "creativeOverride",
+                  "componentPath": "/marketing/mpc/muassets/variants/variant-12/dock/00/variants/variant-0",
+                  "properties": {
+                    "scss": ".dockCard__button {\n     display: none;\n}\n.dockCard__image__wrap {\n    display: none;\n}\n.dockCard__text{\n    width: 100%;\n}\n.dockCard__nowrap{\n    white-space: nowrap;\n}\n.dockCard{\n    height: 140px;\n}\n.dockCard__content{\n    padding: 0px;\n}\n.dockCard__Container {\n    display: flex;\n    align-items: center;\n    flex-direction: column;\n    justify-content: space-evenly;\n    height: 140px;\n    overflow: hidden;\n}\n.dockCard__Logo{\n    display: none;\n}\n.dockCard__GIF{\n    width: 180px;\n    margin-bottom: -20px;\n    margin-top: -25px;\n    @media screen and (min-width: 599px){\n        width: 200px;\n    }\n    @media screen and (min-width: 767px){\n      width: 230px;\n    }\n    \n}\n.dockCard__Custom__Button{\n    width: 100px;\n    height: 14px;\n    background-color: #000;\n    color: #ffffff;\n    font-size: 12px;\n    border-radius: 3px;\n    font-family: nyt-franklin;\n    font-weight: 800;\n    padding: 8px;\n    text-align: center;\n}\n@media screen and (min-width: 599px){\n    .dockCard__Container {\n        flex-direction: row;\n    }\n    .dockCard__Logo {\n        height: 27px;\n        display: block;\n    }\n}\n",
+                    "js": "function (assets) {\r\n    // Add your custom code here.\r\n}"
+                  },
+                  "content": [],
+                  "variants": [],
+                  "segments": [
+                    "/Geo/Countries/USA"
+                  ],
+                  "segmentOperator": "OR"
+                }
+              ],
+              "segments": [],
+              "segmentOperator": null
+            }
+          ]
+        },
+        {
+          "areaName": "gateway",
+          "status": "active",
+          "properties": {
+            "status": "active"
+          },
+          "components": [
+            {
+              "componentName": "gatewayLink",
+              "componentPath": "/marketing/mpc/muassets/variants/variant-12/gateway/0",
+              "properties": {
+                "gatewayLink": "4bb210ef-c874-454d-a237-2b6d8d735174",
+                "gatewayLink.path": "/subscription",
+                "manualCampaignId": "78KHW",
+                "campaignIdType": "manualCampaignId"
+              },
+              "content": [],
+              "variants": [
+                {
+                  "componentName": "gatewayLink",
+                  "componentPath": "/marketing/mpc/muassets/variants/variant-12/gateway/0/variants/variant-0",
+                  "properties": {
+                    "gatewayLink": "d903814c-4365-4026-91a0-973294124533",
+                    "gatewayLink.path": "/subscription/gateway/subcon",
+                    "campaignIdType": "manualCampaignId",
+                    "manualCampaignId": "6YHFY"
+                  },
+                  "content": [],
+                  "variants": [],
+                  "segments": [
+                    "/Geo/Countries/USA"
+                  ],
+                  "segmentOperator": "OR"
+                }
+              ],
+              "segments": [],
+              "segmentOperator": null
+            }
+          ]
+        },
+        {
+          "areaName": "truncator",
+          "status": "killset",
+          "properties": {
+            "status": "inactive"
+          },
+          "components": []
+        },
+        {
+          "areaName": "mobileTruncator",
+          "status": "killset",
+          "properties": {
+            "status": "inactive"
+          },
+          "components": []
+        }
+      ],
+      "variant": true
+    }
+  ]
+}
