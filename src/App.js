@@ -19,6 +19,7 @@ const App = () => {
                 .then(response => response.json())
                 .then(data => setCampaignsList(data.messagingUnits))
                 .catch(error => ({error}));
+            getHiddenWidthRow();
 
         }, [filterName, filterArea, filterAudience]
     );
@@ -71,6 +72,21 @@ const App = () => {
         return arrayIsEqual(filterArea, currentAreas);
     };
 
+    const getHiddenWidthRow = () => {
+        const firstTableRow = document.querySelector("tbody tr");
+        const hiddenWidthRow = document.querySelector("#hiddenWidthRow");
+
+        if (firstTableRow && hiddenWidthRow) {
+            return [...Array(firstTableRow.cells.length).keys()].map((item, idx) => (
+                <td key={item}>
+                    <div
+                        style={{width: firstTableRow.cells[idx].offsetWidth - 2}}
+                    />
+                </td>
+            ));
+        }
+    };
+
     return (
         <div className="app">
             <div className="app-container">
@@ -81,16 +97,13 @@ const App = () => {
                     <tr>
                         <th><h2>Priority</h2></th>
                         <th>Campaign Name<br/>
-                            Filter
-                            <input value={filterName} onChange={(e) => setFilterName(e.target.value)}/>
+                            <input value={filterName} placeholder={"filter"} onChange={(e) => setFilterName(e.target.value)}/>
                         </th>
                         <th>Variant<br/>
-                            Filter
-                            <input value={filterVariant} onChange={(e) => setFilterVariant(e.target.value)}/>
+                            <input value={filterVariant} placeholder={"filter"} onChange={(e) => setFilterVariant(e.target.value)}/>
                         </th>
                         <th>Audiences<br/>
-                            Filter
-                            <input value={filterAudience} onChange={(e) => setFilterAudience(e.target.value)}/>
+                            <input value={filterAudience} placeholder={"filter"} onChange={(e) => setFilterAudience(e.target.value)}/>
                         </th>
                         <th>Areas<br/>
                         | <span className="green">active</span>  | <span className="red">killset</span> | <span className="grey">(fallthrough hidden)</span>
@@ -126,6 +139,8 @@ const App = () => {
                         })
 
                     }
+                    <tr id="hiddenWidthRow" className="hiddenRow">
+                    </tr>
                     </tbody>
                 </table>
 
